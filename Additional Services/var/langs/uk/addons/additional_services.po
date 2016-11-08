@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pervolo\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: pervolo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: variant_colors.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: denis_severin <d.severin@pervolo.com>\n"
+"PO-Revision-Date: 2015-10-07 09:49-0400\n"
+
+msgctxt "Addons::name::additional_services"
+msgid "Additional services"
+msgstr "Додаткові послуги"
+
+msgctxt "Addons::description::additional_services"
+msgid "Allows you to create list of additional services you provide (e.g. gift wrapping, Shipping Insurance etc.)"
+msgstr "Дозволяє створювати список додаткових послуг, які надає Ваш магазин (наприклад, подарункова упаковка, страховка посилки, тощо)"
+
+msgctxt "SettingsOptions::additional_services::license_key"
+msgid "License Key"
+msgstr "Ліцензійний ключ"
+
+msgctxt "SettingsOptions::additional_services::display_type"
+msgid "Display type"
+msgstr "Тип відображення"
+
+msgctxt "SettingsVariants::additional_services::display_type::radio"
+msgid "Radio group"
+msgstr "Одна позначка"
+
+msgctxt "SettingsVariants::additional_services::display_type::checkbox"
+msgid "Group of checkboxes"
+msgstr "Кілька позначок"
+
+msgctxt "Languages::additional_services"
+msgid "Additional services"
+msgstr "Додаткові послуги"
+
+msgctxt "Languages::additional_services_menu_description"
+msgid "Add your custom services"
+msgstr "Додайте Ваші послуги"
+
+msgctxt "Languages::manage_services"
+msgid "Manage services"
+msgstr "Послуги"
+
+msgctxt "Languages::available_services_header"
+msgid "Take a look at our services"
+msgstr "Зверніть увагу на наші додаткові послуги"
+
+msgctxt "Languages::no_thanks"
+msgid "No, thanks"
+msgstr "Ні, дякую"
+
+msgctxt "Languages::add_service"
+msgid "Add service"
+msgstr "Додати послугу"
+
+msgctxt "Languages::update_service"
+msgid "Update service"
+msgstr "Оновити послугу"

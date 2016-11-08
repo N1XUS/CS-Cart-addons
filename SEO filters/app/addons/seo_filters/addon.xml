@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>seo_filters</id>
+    <version>1.3</version>
+    <status>active</status>
+    <priority>1000</priority>
+    <position>0</position>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language>
+    <authors>
+        <author>
+            <name>Pervolo</name>
+            <email>info@pervolo.com</email>
+            <url>http://pervolo.com</url>
+            <phone>+380 (99) 790-57-96</phone>
+        </author>
+    </authors>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="license_key">
+                        <type>input</type>
+                        <default_value />
+                        <variants />
+                    </item>
+                    <item id="default_category_display_name">
+                        <type>input</type>
+                        <default_value>%category% - %variant%</default_value>
+                        <variants />
+                    </item>
+                    <item id="default_page_title">
+                        <type>input</type>
+                        <default_value>%category% - %variant%</default_value>
+                        <variants />
+                    </item>
+                    <item id="default_meta_description">
+                        <type>input</type>
+                        <default_value>%category% - %variant%</default_value>
+                        <variants />
+                    </item>
+                    <item id="default_meta_keywords">
+                        <type>input</type>
+                        <default_value>%category%, %variant%</default_value>
+                        <variants />
+                    </item>
+                    <item id="enable_combination_autogeneration">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <variants/>
+                    </item>
+                    <item id="include_in_sitemap">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <variants/>
+                    </item>
+                </items>
+            </section>
+        </sections>        
+    </settings>
+    <queries>
+        <item for="install">DROP TABLE IF EXISTS ?:seo_filter_combinations;</item>
+        <item for="install">DROP TABLE IF EXISTS ?:seo_filter_descriptions;</item>
+        <item for="install">DROP TABLE IF EXISTS ?:seo_filters;</item>
+        <item for="install">
+            CREATE TABLE `?:seo_filter_combinations` (
+              `combination_id` int(11) NOT NULL,
+              `filter_id` int(11) NOT NULL,
+              `variant_id` varchar(100) NOT NULL
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+        <item for="install">
+            CREATE TABLE `?:seo_filter_descriptions` (
+              `combination_id` int(11) NOT NULL,
+              `combination_name` varchar(255) DEFAULT NULL,
+              `combination_seo_name` varchar(255) NOT NULL DEFAULT '',
+              `category_display_name` varchar(255) NOT NULL DEFAULT '',
+              `description` mediumtext,
+              `page_title` varchar(255) DEFAULT NULL,
+              `meta_description` varchar(128) DEFAULT NULL,
+              `meta_keywords` varchar(255) DEFAULT NULL,
+              `lang_code` char(2) NOT NULL DEFAULT '',
+              UNIQUE KEY `combination_id` (`combination_id`,`lang_code`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+        <item for="install">
+            CREATE TABLE `?:seo_filters` (
+              `combination_id` int(11) NOT NULL AUTO_INCREMENT,
+              `seo_name` varchar(128) NOT NULL,
+              `combination_hash` varchar(128) NOT NULL,
+              `category_ids` varchar(128) NOT NULL DEFAULT '',
+              `price_from` varchar(100) NOT NULL DEFAULT '',
+              `price_to` varchar(100) NOT NULL DEFAULT '',
+              `currency_code` varchar(10) NOT NULL,
+              PRIMARY KEY (`combination_id`),
+              UNIQUE KEY `combination_hash` (`combination_hash`, `category_ids`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:seo_filter_combinations;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:seo_filter_descriptions;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:seo_filters;</item>
+    </queries>
+</addon>

@@ -1,0 +1,105 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pervolo\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: pervolo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: liqpay.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: denis_severin <d.severin@pervolo.com>\n"
+"PO-Revision-Date: 2015-10-05 08:51-0400\n"
+
+msgctxt "Addons::name::liqpay"
+msgid "LiqPay Payments"
+msgstr "Платежі LiqPay"
+
+msgctxt "Addons::description::liqpay"
+msgid "Allows you to use Liqpay payment processor to accept payments"
+msgstr "Дозволяє використовувати сервіс платежів Liqpay для оплати замовлень задопомогою платіжних карт"
+
+msgctxt "SettingsSections::liqpay::general"
+msgid "General"
+msgstr "Загальні"
+
+msgctxt "SettingsOptions::liqpay::license_key"
+msgid "License Key"
+msgstr "Ліцензійний ключ"
+
+msgctxt "Languages::addons.liqpay.public_key"
+msgid "Public Key"
+msgstr "Public Key"
+
+msgctxt "Languages::addons.liqpay.private_key"
+msgid "Private Key"
+msgstr "Private Key"
+
+msgctxt "Languages::addons.liqpay.success_status"
+msgid "Success payment order status"
+msgstr "Статус замовлення при успішній оплаті"
+
+msgctxt "Languages::addons.liqpay.wait"
+msgid "Wait response order status"
+msgstr "Статус замовлення при очікуванні підтвердження списання коштів"
+
+msgctxt "Languages::addons.liqpay.merchant_id"
+msgid "ID мерчанту"
+msgstr "ID мерчанту"
+
+msgctxt "Languages::addons.liqpay.uah"
+msgid "UAH"
+msgstr "UAH"
+
+msgctxt "Languages::addons.liqpay.rub"
+msgid "RUB"
+msgstr "RUB"
+
+msgctxt "Languages::addons.liqpay.usd"
+msgid "USD"
+msgstr "USD"
+
+msgctxt "Languages::addons.liqpay.eur"
+msgid "EUR"
+msgstr "EUR"
+
+msgctxt "Languages::addons.liqpay.pay_order"
+msgid "Order №"
+msgstr "Замовлення №"
+
+msgctxt "Languages::addons.liqpay.page_type"
+msgid "Pay page type"
+msgstr "Тип сторінки оплати"
+
+msgctxt "Languages::addons.liqpay.liqnbuy"
+msgid "Standart design (Liq&Buy)"
+msgstr "Стандартний дизайн (Liq&Buy)"
+
+msgctxt "Languages::addons.liqpay.checkout"
+msgid "Individual design (Checkout)"
+msgstr "Індивідуальний дизайн (Checkout)"
+
+msgctxt "Languages::available_payment_methods"
+msgid "Available payment methods"
+msgstr "Доступні способи оплати"
+
+msgctxt "Languages::addons.liqpay.card"
+msgid "Credit card"
+msgstr "Карта"
+
+msgctxt "Languages::addons.liqpay.liqpay"
+msgid "LiqPay Account"
+msgstr "Гаманець LiqPay"
+
+msgctxt "Languages::addons.liqpay.delayed"
+msgid "POS terminal"
+msgstr "Термінал самообслуговування"
+
+msgctxt "Languages::addons.liqpay.invoice"
+msgid "Invoice"
+msgstr "Інвойс"
+
+msgctxt "Languages::addons.liqpay.privat24"
+msgid "Privat24"
+msgstr "Приват24"

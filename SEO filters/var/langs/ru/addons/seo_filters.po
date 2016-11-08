@@ -1,0 +1,98 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pervolo\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: pervolo\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: liqpay.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: denis_severin <d.severin@pervolo.com>\n"
+"PO-Revision-Date: 2015-10-05 08:51-0400\n"
+
+msgctxt "Addons::name::seo_filters"
+msgid "SEO filters"
+msgstr "SEO фильтры"
+
+msgctxt "Addons::description::seo_filters"
+msgid "Adds ability to set SEF URL's for features hash"
+msgstr "Дает возможность использовать SEF ссылки для хэша выбранных фильтров"
+
+msgctxt "SettingsSections::seo_filters::general"
+msgid "General"
+msgstr "Основные"
+
+msgctxt "SettingsOptions::seo_filters::license_key"
+msgid "License Key"
+msgstr "Лицензионный ключ"
+
+msgctxt "SettingsOptions::seo_filters::default_category_display_name"
+msgid "Default category display name"
+msgstr "Название категории по-умолчанию"
+
+msgctxt "SettingsOptions::seo_filters::default_page_title"
+msgid "Default page title"
+msgstr "Название страницы по-умолчанию"
+
+msgctxt "SettingsOptions::seo_filters::default_meta_description"
+msgid "Default meta description"
+msgstr "META описание по-умолчанию"
+
+msgctxt "SettingsOptions::seo_filters::default_meta_keywords"
+msgid "Default meta keywords"
+msgstr "META ключевые слова по-умолчанию"
+
+
+msgctxt "SettingsOptions::seo_filters::include_in_sitemap"
+msgid "Include links in sitemap.xml"
+msgstr "Включить ссылки в файл sitemap.xml"
+
+msgctxt "SettingsOptions::seo_filters::enable_combination_autogeneration"
+msgid "Enable autogeneration for single combinations"
+msgstr "Включить автогенерацию комбинаций для единичных вариантов"
+
+msgctxt "Languages::manage_seo_filters"
+msgid "SEO filters"
+msgstr "SEO фильтры"
+
+msgctxt "Languages::editing_seo_filter"
+msgid "Editing seo filter"
+msgstr "Редактирование SEO фильтра"
+
+msgctxt "Languages::filter_combinations"
+msgid "Filter combinations"
+msgstr "Комбинации фильтра"
+
+msgctxt "Languages::new_seo_filter"
+msgid "New SEO filter"
+msgstr "Новый SEO фильтр"
+
+msgctxt "Languages::addons.seo_filters.combination_exists"
+msgid "This combination already exists"
+msgstr "Данная комбинация уже существует, пожалуйста, <a href=\"[URL]\">перейдите на необходимую страницу</a>"
+
+msgctxt "Languages::addons.seo_filters.no_combinations_defined"
+msgid "No combinations defined"
+msgstr "Не выбрано ни одной комбинации!"
+
+msgctxt "Languages::combination_seo_name"
+msgid "Combination SEO name"
+msgstr "SEO имя комбинации"
+
+msgctxt "Languages::current_combination"
+msgid "Current combination"
+msgstr "Текущая комбинация"
+
+msgctxt "Languages::with_empty_combinations"
+msgid "With empty combinations"
+msgstr "С пустыми комбинациями"
+
+msgctxt "Languages::all_combinations"
+msgid "All combinations"
+msgstr "Все комбинации"
+
+msgctxt "Languages::add_seo_filter"
+msgid "Add SEO filter"
+msgstr "Добавить SEO фильтр"

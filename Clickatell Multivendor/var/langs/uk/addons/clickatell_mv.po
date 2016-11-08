@@ -1,0 +1,213 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pervolo\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: pervolo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: clickatell_mv.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: denis_severin <d.severin@pervolo.com>\n"
+"PO-Revision-Date: 2015-10-06 03:58-0400\n"
+
+msgctxt "Addons::name::clickatell_mv"
+msgid "clickatell.com intergation"
+msgstr "Інтеграція з clickatell.com"
+
+msgctxt "Addons::description::clickatell_mv"
+msgid "Allows you to set up administrator and customer SMS notifications"
+msgstr "Дає змогу налаштувати відправку СМС сповіщень адміністраторам та клієнтам"
+
+msgctxt "SettingsOptions::clickatell_mv::license_key"
+msgid "License Key"
+msgstr "Ліцензійний ключ"
+
+msgctxt "SettingsVariants::clickatell_mv::customer_phone_field::s"
+msgid "Shipping address phone"
+msgstr "Номер телефону адреси доставки"
+
+msgctxt "SettingsVariants::clickatell_mv::customer_phone_field::b"
+msgid "Billing address phone"
+msgstr "Номер телефону адреси платіжника"
+
+msgctxt "SettingsSections::clickatell_mv::general"
+msgid "General"
+msgstr "Загальні"
+
+msgctxt "SettingsOptions::clickatell_mv::elm_clickatell_settings"
+msgid "clickatell.com Settings"
+msgstr "Налаштування clickatell.com"
+
+msgctxt "SettingsOptions::clickatell_mv::clickatell_user"
+msgid "Username"
+msgstr "Ім'я користувача"
+
+msgctxt "SettingsOptions::clickatell_mv::clickatell_api_id"
+msgid "API ID"
+msgstr "API ID"
+
+msgctxt "SettingsOptions::clickatell_mv::clickatell_password"
+msgid "Password"
+msgstr "Пароль"
+
+msgctxt "SettingsOptions::clickatell_mv::clickatell_unicode"
+msgid "Use Unicode"
+msgstr "Використовувати Юнікод"
+
+msgctxt "SettingsOptions::clickatell_mv::clickatell_concat"
+msgid "Split long sms into several parts"
+msgstr "Розділяти довгі повідомлення на кілька частин"
+
+msgctxt "SettingsVariants::clickatell_mv::clickatell_concat::clickatell_concat_1"
+msgid "Do not split"
+msgstr "не розділяти"
+
+msgctxt "SettingsVariants::clickatell_mv::clickatell_concat::clickatell_concat_2"
+msgid "2 sms"
+msgstr "2 sms"
+
+msgctxt "SettingsVariants::clickatell_mv::clickatell_concat::clickatell_concat_3"
+msgid "3 sms"
+msgstr "3 sms"
+
+msgctxt "SettingsOptions::clickatell_mv::elm_admin_send_sms_if"
+msgid "Send SMS if"
+msgstr "Відправити SMS-повідомлення, якщо"
+
+msgctxt "SettingsOptions::clickatell_mv::elm_customer_send_sms_if"
+msgid "Send SMS if"
+msgstr "Відправити SMS-повідомлення, якщо"
+
+msgctxt "SettingsOptions::clickatell_mv::elm_vendor_send_sms_if"
+msgid "Send SMS if"
+msgstr "Відправити SMS-повідомлення, якщо"
+
+msgctxt "SettingsSections::clickatell_mv::admin_notifications"
+msgid "Administrator notifications"
+msgstr "Сповіщення адміністраторів"
+
+msgctxt "SettingsOptions::clickatell_mv::admin_phone_number"
+msgid "Administrator phone number"
+msgstr "Номери телефонів адміністраторів (через кому)"
+
+msgctxt "SettingsOptions::clickatell_mv::admin_sms_new_cusomer_registered"
+msgid "New customer has been registered"
+msgstr "Був зареєстрований новий клієнт"
+
+msgctxt "SettingsOptions::clickatell_mv::admin_sms_new_order_placed"
+msgid "New order has been placed"
+msgstr "Було розміщено нове замовлення"
+
+msgctxt "SettingsOptions::clickatell_mv::admin_sms_order_updated"
+msgid "Order has been updated"
+msgstr "Замовлення було оновлено"
+
+msgctxt "SettingsOptions::clickatell_mv::admin_sms_send_min_amount"
+msgid "Only send when order total amount is more than"
+msgstr "Лише надсилати, якщо загальна сума замовлення є більш ніж"
+
+msgctxt "SettingsOptions::clickatell_mv::admin_sms_send_shipping"
+msgid "Only send for these shipping methods"
+msgstr "Відправити якщо спосіб доставки один з наступних"
+
+msgctxt "SettingsOptions::clickatell_mv::admin_sms_send_order_statuses"
+msgid "Only send for these order statuses"
+msgstr "Відправити якщо статус замовлення один з наступних"
+
+msgctxt "SettingsOptions::clickatell_mv::admin_sms_product_negative_amount"
+msgid "Product quantity is less than zero"
+msgstr "Кількість продукту менше нуля"
+
+msgctxt "SettingsOptions::clickatell_mv::admin_elm_sms_content"
+msgid "SMS content"
+msgstr "Зміст SMS"
+
+msgctxt "SettingsOptions::clickatell_mv::admin_sms_send_payment_info"
+msgid "Add payment info"
+msgstr "Додати платіжну інформацію"
+
+msgctxt "SettingsOptions::clickatell_mv::admin_sms_send_customer_email"
+msgid "Add customers e-mail"
+msgstr "Додати E-Mail клієнта"
+
+msgctxt "SettingsSections::clickatell_mv::customer_notifications"
+msgid "Customer notifications"
+msgstr "Сповіщення клієнтів"
+
+msgctxt "SettingsOptions::clickatell_mv::customer_phone_field"
+msgid "Customer phone field"
+msgstr "Поле телефону клієнта"
+
+msgctxt "SettingsOptions::clickatell_mv::customer_sms_order_updated"
+msgid "Order has been updated"
+msgstr "Замовлення було оновлено"
+
+msgctxt "SettingsOptions::clickatell_mv::customer_sms_send_shipping"
+msgid "Only send for these shipping methods"
+msgstr "Відправити якщо спосіб доставки один з наступних"
+
+msgctxt "SettingsOptions::clickatell_mv::customer_sms_send_order_statuses"
+msgid "Only send for these order statuses"
+msgstr "Відправити якщо статус замовлення один з наступних"
+
+msgctxt "SettingsOptions::clickatell_mv::customer_sms_send_min_amount"
+msgid "Only send when order total amount is more than"
+msgstr "Лише надсилати, якщо загальна сума замовлення є більш ніж"
+
+msgctxt "SettingsSections::clickatell_mv::vendor_notifications"
+msgid "Vendors notifications"
+msgstr "Сповіщення продавців"
+
+msgctxt "SettingsOptions::clickatell_mv::vendor_sms_new_order_placed"
+msgid "New order has been placed"
+msgstr "Було розміщено нове замовлення"
+
+msgctxt "SettingsOptions::clickatell_mv::vendor_sms_order_updated"
+msgid "Order has been updated"
+msgstr "Замовлення було оновлено"
+
+msgctxt "SettingsOptions::clickatell_mv::vendor_sms_send_min_amount"
+msgid "Only send when order total amount is more than"
+msgstr "Лише надсилати, якщо загальна сума замовлення є більш ніж"
+
+msgctxt "SettingsOptions::clickatell_mv::vendor_sms_send_shipping"
+msgid "Only send for these shipping methods"
+msgstr "Відправити якщо спосіб доставки один з наступних"
+
+msgctxt "SettingsOptions::clickatell_mv::vendor_sms_send_order_statuses"
+msgid "Only send for these order statuses"
+msgstr "Відправити якщо статус замовлення один з наступних"
+
+msgctxt "SettingsOptions::clickatell_mv::vendor_sms_product_negative_amount"
+msgid "Product quantity is less than zero"
+msgstr "Кількість продукту менше нуля"
+
+msgctxt "SettingsOptions::clickatell_mv::vendor_elm_sms_content"
+msgid "SMS content"
+msgstr "Зміст SMS"
+
+msgctxt "SettingsOptions::clickatell_mv::vendor_sms_send_payment_info"
+msgid "Add payment info"
+msgstr "Додати платіжну інформацію"
+
+msgctxt "SettingsOptions::clickatell_mv::vendor_sms_send_customer_email"
+msgid "Add customers e-mail"
+msgstr "Додати E-Mail клієнта"
+
+msgctxt "Languages::addons.clickatell_mv.custom_sms_message"
+msgid "Custom SMS message"
+msgstr "Текст СМС повідомлення"
+
+msgctxt "Languages::addons.clickatell_mv.sms_placeholders"
+msgid "You can use these placeholders:<br /><strong>%ORDER_ID%</strong> equals to order ID;<br /><strong>%NAME%</strong> equals to customers name;<br /><strong>%LAST_NAME%</strong> equals to customers last name;<br /><strong>%USER_EMAIL%</strong> equals to customers E-Mail;<br /><strong>%ORDER_TOTAL%</strong> equals to order total;<br />"
+msgstr "Ви можете використовувати ці заповнювачі:<br /><strong>%ORDER_ID%</strong> дорівнює номеру замовлення;<br /><strong>%NAME%</strong> дорівнює імені клієнта;<br /><strong>%LAST_NAME%</strong> дорівнює фамілії кліента;<br /><strong>%USER_EMAIL%</strong> дорівнює E-Mail клієнта;<br /><strong>%ORDER_TOTAL%</strong> дорівнює загальній суммі замовлення;<br />"
+
+msgctxt "Languages::addons.clickatell_mv.new_shipment_sms"
+msgid "Shipment for order [order_id] was send. Shipping method: [shipping_method]. It was assigned [tracking_number] tracking number"
+msgstr "Замовлення [order_id] було відправлено. Спосіб доставки: [shipping_method]. Йому призначений номер відстеження [tracking_number]"
+
+msgctxt "Languages::addons.clickatell_mv.is"
+msgid "is"
+msgstr "отримав статус"

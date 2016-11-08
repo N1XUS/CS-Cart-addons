@@ -1,0 +1,15 @@
+{
+    "authors": [
+        {
+            "name": "Pervolo",
+            "email": "info@pervolo.com"
+        }
+    ],
+    "require": {
+        "giggsey/libphonenumber-for-php": "~7.0"
+    },
+    "scripts": {
+        "post-update-cmd": ["echo [WARNING] Delete all .git dirs", "rm -rf vendor/**/**/.git"],
+        "post-install-cmd": ["echo [WARNING] Delete all .git dirs", "rm -rf vendor/**/**/.git"]
+    }
+}

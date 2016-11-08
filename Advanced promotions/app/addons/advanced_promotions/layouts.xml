@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<block_scheme scheme="1.0">
+  <settings>
+    <default_language>en</default_language>
+  </settings>
+  <location dispatch="promotions.view" is_default="0" layout_id="1" object_ids="" custom_html="" position="180" lang_code="en" name="Promotion detailed page" title="Promotion information" meta_description="" meta_keywords="">
+    <containers>
+      <container container_id="273" location_id="69" position="TOP_PANEL" width="16" user_class="" linked_to_default="Y" status="A"/>
+      <container container_id="274" location_id="69" position="HEADER" width="16" user_class="" linked_to_default="Y" status="A"/>
+      <container container_id="275" location_id="69" position="CONTENT" width="16" user_class="" linked_to_default="Y" status="A">
+        <grid width="16" user_class="breadcrumbs-grid" linked_to_default="Y" status="A" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1">
+          <blocks>
+            <block>
+              <type><![CDATA[breadcrumbs]]></type>
+              <properties>
+                <template><![CDATA[common/breadcrumbs.tpl]]></template>
+              </properties>
+              <lang_code><![CDATA[en]]></lang_code>
+              <name><![CDATA[Breadcrumbs]]></name>
+              <object_id><![CDATA[0]]></object_id>
+              <object_type><![CDATA[]]></object_type>
+              <content><![CDATA[]]></content>
+              <object_ids><![CDATA[]]></object_ids>
+              <wrapper><![CDATA[]]></wrapper>
+              <user_class><![CDATA[]]></user_class>
+              <order><![CDATA[0]]></order>
+              <status><![CDATA[A]]></status>
+              <translations>
+                <translation lang_code="ru"><![CDATA[Breadcrumbs]]></translation>
+                <translation lang_code="uk"><![CDATA[Breadcrumbs]]></translation>
+              </translations>
+              <contents/>
+            </block>
+          </blocks>
+        </grid>
+        <grid width="16" user_class="main-content-grid" linked_to_default="Y" status="A" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1">
+          <grid width="8" user_class="" linked_to_default="Y" status="A" offset="0" omega="0" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0">
+            <blocks>
+              <block>
+                <type><![CDATA[promotion_info]]></type>
+                <properties>
+                  <template><![CDATA[addons/advanced_promotions/blocks/promotions/promotion_image.tpl]]></template>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Promotion image]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content><![CDATA[]]></content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[0]]></order>
+                <status><![CDATA[A]]></status>
+                <translations>
+                  <translation lang_code="ru"><![CDATA[Главное изображение акции]]></translation>
+                  <translation lang_code="uk"><![CDATA[Promotion image]]></translation>
+                </translations>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+          <grid width="8" user_class="" linked_to_default="Y" status="A" offset="0" omega="1" alpha="0" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1">
+            <blocks>
+              <block>
+                <type><![CDATA[promotion_info]]></type>
+                <properties>
+                  <template><![CDATA[addons/advanced_promotions/blocks/promotions/main_info.tpl]]></template>
+                  <display_coundown><![CDATA[Y]]></display_coundown>
+                  <display_time_period><![CDATA[Y]]></display_time_period>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Promotion main info]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content><![CDATA[]]></content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[0]]></order>
+                <status><![CDATA[A]]></status>
+                <translations>
+                  <translation lang_code="ru"><![CDATA[Основная информация об акции]]></translation>
+                  <translation lang_code="uk"><![CDATA[Promotion main info]]></translation>
+                </translations>
+                <contents/>
+              </block>
+              <block>
+                <type><![CDATA[promotion_info]]></type>
+                <properties>
+                  <template><![CDATA[addons/advanced_promotions/blocks/promotions/description.tpl]]></template>
+                </properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Promotion description]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content><![CDATA[]]></content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[1]]></order>
+                <status><![CDATA[A]]></status>
+                <translations>
+                  <translation lang_code="ru"><![CDATA[Описание акции]]></translation>
+                  <translation lang_code="uk"><![CDATA[Promotion description]]></translation>
+                </translations>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+          <grid width="16" user_class="" linked_to_default="Y" status="A" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1">
+            <blocks>
+              <block>
+                <type><![CDATA[main]]></type>
+                <properties><![CDATA[]]></properties>
+                <lang_code><![CDATA[en]]></lang_code>
+                <name><![CDATA[Main Content]]></name>
+                <object_id><![CDATA[0]]></object_id>
+                <object_type><![CDATA[]]></object_type>
+                <content><![CDATA[]]></content>
+                <object_ids><![CDATA[]]></object_ids>
+                <wrapper><![CDATA[blocks/wrappers/mainbox_general.tpl]]></wrapper>
+                <user_class><![CDATA[]]></user_class>
+                <order><![CDATA[0]]></order>
+                <status><![CDATA[A]]></status>
+                <translations>
+                  <translation lang_code="ru"><![CDATA[Главное содержимое]]></translation>
+                  <translation lang_code="uk"><![CDATA[Main Content]]></translation>
+                </translations>
+                <contents/>
+              </block>
+            </blocks>
+          </grid>
+          <grid width="8" user_class="" linked_to_default="Y" status="A" offset="0" omega="0" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0"/>
+          <grid width="8" user_class="" linked_to_default="Y" status="A" offset="0" omega="1" alpha="0" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1"/>
+        </grid>
+      </container>
+      <container container_id="276" location_id="69" position="FOOTER" width="16" user_class="" linked_to_default="Y" status="A"/>
+    </containers>
+    <translations>
+      <translation lang_code="ru">
+        <meta_keywords><![CDATA[]]></meta_keywords>
+        <page_title><![CDATA[Информация о акции]]></page_title>
+        <meta_description><![CDATA[]]></meta_description>
+        <name>&#x414;&#x435;&#x442;&#x430;&#x43B;&#x44C;&#x43D;&#x430;&#x44F; &#x441;&#x442;&#x440;&#x430;&#x43D;&#x438;&#x446;&#x430; &#x430;&#x43A;&#x446;&#x438;&#x438;</name>
+      </translation>
+      <translation lang_code="uk">
+        <meta_keywords><![CDATA[]]></meta_keywords>
+        <page_title><![CDATA[Promotion information]]></page_title>
+        <meta_description><![CDATA[]]></meta_description>
+        <name>Promotion detailed page</name>
+      </translation>
+    </translations>
+  </location>
+</block_scheme>

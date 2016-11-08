@@ -1,0 +1,1 @@
+{script src="js/addons/variant_colors/func.js"}

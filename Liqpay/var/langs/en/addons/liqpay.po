@@ -1,0 +1,97 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::liqpay"
+msgid "LiqPay Payments"
+msgstr "LiqPay Payments"
+
+msgctxt "Addons::description::liqpay"
+msgid "Allows you to use Liqpay payment processor to accept payments"
+msgstr "Allows you to use Liqpay payment processor to accept payments"
+
+msgctxt "SettingsSections::liqpay::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::liqpay::license_key"
+msgid "License Key"
+msgstr "License Key"
+
+msgctxt "Languages::addons.liqpay.public_key"
+msgid "Public Key"
+msgstr "Public Key"
+
+msgctxt "Languages::addons.liqpay.private_key"
+msgid "Private Key"
+msgstr "Private Key"
+
+msgctxt "Languages::addons.liqpay.success_status"
+msgid "Success payment order status"
+msgstr "Success payment order status"
+
+msgctxt "Languages::addons.liqpay.wait"
+msgid "Wait response order status"
+msgstr "Wait response order status"
+
+msgctxt "Languages::addons.liqpay.merchant_id"
+msgid "ID мерчанта"
+msgstr "ID мерчанта"
+
+msgctxt "Languages::addons.liqpay.uah"
+msgid "UAH"
+msgstr "UAH"
+
+msgctxt "Languages::addons.liqpay.rub"
+msgid "RUB"
+msgstr "RUB"
+
+msgctxt "Languages::addons.liqpay.usd"
+msgid "USD"
+msgstr "USD"
+
+msgctxt "Languages::addons.liqpay.eur"
+msgid "EUR"
+msgstr "EUR"
+
+msgctxt "Languages::addons.liqpay.pay_order"
+msgid "Order №"
+msgstr "Order №"
+
+msgctxt "Languages::addons.liqpay.page_type"
+msgid "Pay page type"
+msgstr "Pay page type"
+
+msgctxt "Languages::addons.liqpay.liqnbuy"
+msgid "Standart design (Liq&Buy)"
+msgstr "Standart design (Liq&Buy)"
+
+msgctxt "Languages::addons.liqpay.checkout"
+msgid "Individual design (Checkout)"
+msgstr "Individual design (Checkout)"
+
+msgctxt "Languages::available_payment_methods"
+msgid "Available payment methods"
+msgstr "Available payment methods"
+
+msgctxt "Languages::addons.liqpay.card"
+msgid "Credit card"
+msgstr "Credit card"
+
+msgctxt "Languages::addons.liqpay.liqpay"
+msgid "LiqPay Account"
+msgstr "LiqPay Account"
+
+msgctxt "Languages::addons.liqpay.delayed"
+msgid "POS terminal"
+msgstr "POS terminal"
+
+msgctxt "Languages::addons.liqpay.invoice"
+msgid "Invoice"
+msgstr "Invoice"
+
+msgctxt "Languages::addons.liqpay.privat24"
+msgid "Privat24"
+msgstr "Privat24"

@@ -1,0 +1,201 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::smsgateway_mv"
+msgid "smsgateway.to intergation"
+msgstr "smsgateway.to intergation"
+
+msgctxt "Addons::description::smsgateway_mv"
+msgid "Allows you to set up administrator and customer SMS notifications"
+msgstr "Allows you to set up administrator and customer SMS notifications"
+
+msgctxt "SettingsVariants::smsgateway_mv::customer_phone_field::s"
+msgid "Shipping address phone"
+msgstr "Shipping address phone"
+
+msgctxt "SettingsVariants::smsgateway_mv::customer_phone_field::b"
+msgid "Billing address phone"
+msgstr "Billing address phone"
+
+msgctxt "SettingsSections::smsgateway_mv::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::smsgateway_mv::license_key"
+msgid "License Key"
+msgstr "License Key"
+
+msgctxt "SettingsOptions::smsgateway_mv::elm_smsgateway_mv_settings"
+msgid "smsgateway.to Settings"
+msgstr "smsgateway.to Settings"
+
+msgctxt "SettingsOptions::smsgateway_mv::product_token"
+msgid "smsgateway.to Product Token"
+msgstr "smsgateway.to Product Token"
+
+msgctxt "SettingsOptions::smsgateway_mv::smsgateway_sender"
+msgid "smsgateway.to Display name"
+msgstr "smsgateway.to Display name"
+
+msgctxt "SettingsOptions::smsgateway_mv::smsgateway_unicode"
+msgid "Use Unicode"
+msgstr "Use Unicode"
+
+msgctxt "SettingsOptions::smsgateway_mv::smsgateway_concat"
+msgid "Split long sms into several parts"
+msgstr "Split long sms into several parts"
+
+msgctxt "SettingsVariants::smsgateway_mv::smsgateway_mv_concat::smsgateway_concat_1"
+msgid "Do not split"
+msgstr "Do not split"
+
+msgctxt "SettingsVariants::smsgateway_mv::smsgateway_mv_concat::smsgateway_concat_2"
+msgid "2 sms"
+msgstr "2 sms"
+
+msgctxt "SettingsVariants::smsgateway_mv::smsgateway_mv_concat::smsgateway_concat_3"
+msgid "3 sms"
+msgstr "3 sms"
+
+msgctxt "SettingsOptions::smsgateway_mv::elm_admin_send_sms_if"
+msgid "Send SMS if"
+msgstr "Send SMS if"
+
+msgctxt "SettingsOptions::smsgateway_mv::elm_customer_send_sms_if"
+msgid "Send SMS if"
+msgstr "Send SMS if"
+
+msgctxt "SettingsOptions::smsgateway_mv::elm_vendor_send_sms_if"
+msgid "Send SMS if"
+msgstr "Send SMS if"
+
+msgctxt "SettingsSections::smsgateway_mv::admin_notifications"
+msgid "Administrator notifications"
+msgstr "Administrator notifications"
+
+msgctxt "SettingsOptions::smsgateway_mv::admin_phone_number"
+msgid "Administrator phone number"
+msgstr "Administrator phone number"
+
+msgctxt "SettingsOptions::smsgateway_mv::admin_sms_new_cusomer_registered"
+msgid "New customer has been registered"
+msgstr "New customer has been registered"
+
+msgctxt "SettingsOptions::smsgateway_mv::admin_sms_new_order_placed"
+msgid "New order has been placed"
+msgstr "New order has been placed"
+
+msgctxt "SettingsOptions::smsgateway_mv::admin_sms_order_updated"
+msgid "Order has been updated"
+msgstr "Order has been updated"
+
+msgctxt "SettingsOptions::smsgateway_mv::admin_sms_send_min_amount"
+msgid "Only send when order total amount is more than"
+msgstr "Only send when order total amount is more than"
+
+msgctxt "SettingsOptions::smsgateway_mv::admin_sms_send_shipping"
+msgid "Only send for these shipping methods"
+msgstr "Only send for these shipping methods"
+
+msgctxt "SettingsOptions::smsgateway_mv::admin_sms_send_order_statuses"
+msgid "Only send for these order statuses"
+msgstr "Only send for these order statuses"
+
+msgctxt "SettingsOptions::smsgateway_mv::admin_sms_product_negative_amount"
+msgid "Product quantity is less than zero"
+msgstr "Product quantity is less than zero"
+
+msgctxt "SettingsOptions::smsgateway_mv::admin_elm_sms_content"
+msgid "SMS content"
+msgstr "SMS content"
+
+msgctxt "SettingsOptions::smsgateway_mv::admin_sms_send_payment_info"
+msgid "Add payment info"
+msgstr "Add payment info"
+
+msgctxt "SettingsOptions::smsgateway_mv::admin_sms_send_customer_email"
+msgid "Add customers e-mail"
+msgstr "Add customers e-mail"
+
+msgctxt "SettingsSections::smsgateway_mv::customer_notifications"
+msgid "Customer notifications"
+msgstr "Customer notifications"
+
+msgctxt "SettingsOptions::smsgateway_mv::customer_phone_field"
+msgid "Customer phone field"
+msgstr "Customer phone field"
+
+msgctxt "SettingsOptions::smsgateway_mv::customer_sms_order_updated"
+msgid "Order has been updated"
+msgstr "Order has been updated"
+
+msgctxt "SettingsOptions::smsgateway_mv::customer_sms_send_shipping"
+msgid "Only send for these shipping methods"
+msgstr "Only send for these shipping methods"
+
+msgctxt "SettingsOptions::smsgateway_mv::customer_sms_send_order_statuses"
+msgid "Only send for these order statuses"
+msgstr "Only send for these order statuses"
+
+msgctxt "SettingsOptions::smsgateway_mv::customer_sms_send_min_amount"
+msgid "Only send when order total amount is more than"
+msgstr "Only send when order total amount is more than"
+
+msgctxt "SettingsSections::smsgateway_mv::vendor_notifications"
+msgid "Vendors notifications"
+msgstr "Vendors notifications"
+
+msgctxt "SettingsOptions::smsgateway_mv::vendor_sms_new_order_placed"
+msgid "New order has been placed"
+msgstr "New order has been placed"
+
+msgctxt "SettingsOptions::smsgateway_mv::vendor_sms_order_updated"
+msgid "Order has been updated"
+msgstr "Order has been updated"
+
+msgctxt "SettingsOptions::smsgateway_mv::vendor_sms_send_min_amount"
+msgid "Only send when order total amount is more than"
+msgstr "Only send when order total amount is more than"
+
+msgctxt "SettingsOptions::smsgateway_mv::vendor_sms_send_shipping"
+msgid "Only send for these shipping methods"
+msgstr "Only send for these shipping methods"
+
+msgctxt "SettingsOptions::smsgateway_mv::vendor_sms_send_order_statuses"
+msgid "Only send for these order statuses"
+msgstr "Only send for these order statuses"
+
+msgctxt "SettingsOptions::smsgateway_mv::vendor_sms_product_negative_amount"
+msgid "Product quantity is less than zero"
+msgstr "Product quantity is less than zero"
+
+msgctxt "SettingsOptions::smsgateway_mv::vendor_elm_sms_content"
+msgid "SMS content"
+msgstr "SMS content"
+
+msgctxt "SettingsOptions::smsgateway_mv::vendor_sms_send_payment_info"
+msgid "Add payment info"
+msgstr "Add payment info"
+
+msgctxt "SettingsOptions::smsgateway_mv::vendor_sms_send_customer_email"
+msgid "Add customers e-mail"
+msgstr "Add customers e-mail"
+
+msgctxt "Languages::addons.smsgateway_mv.custom_sms_message"
+msgid "Custom SMS message"
+msgstr "Custom SMS message"
+
+msgctxt "Languages::addons.smsgateway_mv.sms_placeholders"
+msgid "You can use these placeholders:<br /><strong>%ORDER_ID%</strong> equals to order ID;<br /><strong>%NAME%</strong> equals to customers name;<br /><strong>%LAST_NAME%</strong> equals to customers last name;<br /><strong>%USER_EMAIL%</strong> equals to customers E-Mail;<br /><strong>%ORDER_TOTAL%</strong> equals to order total;<br />"
+msgstr "You can use these placeholders:<br /><strong>%ORDER_ID%</strong> equals to order ID;<br /><strong>%NAME%</strong> equals to customers name;<br /><strong>%LAST_NAME%</strong> equals to customers last name;<br /><strong>%USER_EMAIL%</strong> equals to customers E-Mail;<br /><strong>%ORDER_TOTAL%</strong> equals to order total;<br />"
+
+msgctxt "Languages::addons.smsgateway_mv.new_shipment_sms"
+msgid "Shipment for order [order_id] was send. Shipping method: [shipping_method]. It was assigned [tracking_number] tracking number"
+msgstr "Shipment for order [order_id] was send. Shipping method: [shipping_method]. It was assigned [tracking_number] tracking number"
+
+msgctxt "Languages::addons.smsgateway_mv.is"
+msgid "is"
+msgstr "is"

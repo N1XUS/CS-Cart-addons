@@ -1,0 +1,61 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pervolo\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: pervolo\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: variant_colors.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: denis_severin <d.severin@pervolo.com>\n"
+"PO-Revision-Date: 2015-10-07 09:49-0400\n"
+
+msgctxt "Addons::name::abandoned_cart_reminder"
+msgid "Abandoned cart reminder"
+msgstr "Напоминание о незавершенных покупках"
+
+msgctxt "Addons::description::abandoned_cart_reminder"
+msgid "Add-on sends E-Mail reminders to customers with incomplete orders"
+msgstr "Отправляет E-Mail напоминания покупателям с незавершенными покупками"
+
+msgctxt "SettingsSections::abandoned_cart_reminder::general"
+msgid "General"
+msgstr "Основные"
+
+msgctxt "SettingsOptions::abandoned_cart_reminder::license_key"
+msgid "License Key"
+msgstr "Лицензионный ключ"
+
+msgctxt "SettingsOptions::abandoned_cart_reminder::cron_password"
+msgid "Cron password"
+msgstr "Cron пароль"
+
+msgctxt "SettingsOptions::abandoned_cart_reminder::abandoned_min_days"
+msgid "Cart abandoned minimum days"
+msgstr "Минимальное кол-во дней незавершенного заказа"
+
+msgctxt "SettingsOptions::abandoned_cart_reminder::abandoned_max_days"
+msgid "Cart abandoned maximum days"
+msgstr "Максимальное кол-во дней незавершенного заказа"
+
+msgctxt "SettingsOptions::abandoned_cart_reminder::cron_url"
+msgid "Cron command"
+msgstr "Cron комманда"
+
+msgctxt "Languages::addons.abandoned_cart_reminder_cron_url"
+msgid "Use the following line to run the script according to schedule:<br /> php [dir_root] --dispatch=cart_reminder.send --cron_password=[cron_password].<br />Or /usr/bin/wget -O - -q -t 1 '[url_path]'"
+msgstr "Используйте следующую команду для запуска скрипта по расписанию:<br /> php [dir_root] --dispatch=cart_reminder.send --cron_password=[cron_password]<br />Или /usr/bin/wget -O - -q -t 1 '[url_path]'"
+
+msgctxt "Languages::addons.abandoned_cart_reminder.you_have_incompleted_orders"
+msgid "You have incomplete order"
+msgstr "У Вас есть незавершенные покупки"
+
+msgctxt "Languages::addons.abandoned_cart_reminder.remind_text"
+msgid "Recently you've added products to cart, but did not complete the purchase."
+msgstr "Недавно Вы добавили следующие товары, но, так и не оформили покупку"
+
+msgctxt "Languages::addons.abandoned_cart_reminder"
+msgid "[NAME], you have incomplete order"
+msgstr "[NAME], у Вас есть незавершенные покупки"

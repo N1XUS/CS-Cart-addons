@@ -1,0 +1,69 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pervolo\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: pervolo\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: clickatell.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: denis_severin <d.severin@pervolo.com>\n"
+"PO-Revision-Date: 2015-10-06 03:58-0400\n"
+
+msgctxt "Addons::name::privat_credit"
+msgid "Partial payments via PrivatBank"
+msgstr "Мгновенная рассрочка и Оплата частями от ПриватБанка"
+
+msgctxt "SettingsSections::privat_credit::general"
+msgid "General"
+msgstr "Основные"
+
+msgctxt "SettingsOptions::privat_credit::license_key"
+msgid "License Key"
+msgstr "Лицензионный ключ"
+
+msgctxt "Languages::addons.privat_credit.identifier"
+msgid "Store identifier"
+msgstr "Идентификатор магазина"
+
+msgctxt "Languages::addons.privat_credit.parts_count"
+msgid "Number of payments"
+msgstr "Количество платежей"
+
+msgctxt "Languages::addons.privat_credit.success"
+msgid "Order status for success response"
+msgstr "Статус заказа при успешной подписке"
+
+msgctxt "Languages::addons.privat_credit.wait"
+msgid "Order status for wait response"
+msgstr "Статус заказа при ожидании ответа системы"
+
+msgctxt "Languages::addons.privat_credit.instant_installment"
+msgid "Instant installment"
+msgstr "Мгновенная рассрочка"
+
+msgctxt "Languages::addons.privat_credit.partial_payments"
+msgid "Partial payments"
+msgstr "Оплата частями"
+
+msgctxt "Languages::addons.privat_credit.privat_credit_form_page_ii"
+msgid "Privatbank's Instant installment service"
+msgstr "Сервис мгновенной рассрочки от ПриватБанка"
+
+msgctxt "Languages::addons.privat_credit.privat_credit_form_page_pp"
+msgid "Privatbank's Partial payments service"
+msgstr "Сервис оплаты частями от ПриватБанка"
+
+msgctxt "Languages::addons.privat_credit.usd"
+msgid "US Dollars"
+msgstr "Доллары США"
+
+msgctxt "Languages::addons.privat_credit.uah"
+msgid "Ukrainian hryvna"
+msgstr "Гривна"
+
+msgctxt "Languages::addons.privat_credit.rub"
+msgid "Russian Ruble"
+msgstr "Российский рубль"

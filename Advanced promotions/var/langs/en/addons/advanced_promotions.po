@@ -1,0 +1,105 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::advanced_promotions"
+msgid "Advanced promotions views"
+msgstr "Advanced promotions views"
+
+msgctxt "Addons::description::advanced_promotions"
+msgid "Extends standart design of promotions in frontend"
+msgstr "Extends standart design of promotions in frontend"
+
+msgctxt "SettingsOptions::advanced_promotions::license_key"
+msgid "License Key"
+msgstr "License Key"
+
+msgctxt "Languages::promotion_pages"
+msgid "Promotion pages"
+msgstr "Promotion pages"
+
+msgctxt "Languages::promotion_details_page"
+msgid "Promotion details page"
+msgstr "Promotion details page"
+
+msgctxt "Languages::add_promotions_and_close"
+msgid "Add promotion and close"
+msgstr "Add promotion and close"
+
+msgctxt "Languages::conditions_description"
+msgid "Description for conditions"
+msgstr "Description for conditions"
+
+msgctxt "Languages::promotion_images"
+msgid "Promotion images"
+msgstr "Promotion images"
+
+msgctxt "Languages::text_promotion_main_image"
+msgid "Promotion main image"
+msgstr "Promotion main image"
+
+msgctxt "Languages::text_promotion_list_image"
+msgid "Promotion image on list page"
+msgstr "Promotion image on list page"
+
+msgctxt "Languages::addons.advanced_promotions.promotion_ends"
+msgid "Ends [DAYS_LEFT_VALUE]"
+msgstr "Ends [DAYS_LEFT_VALUE]"
+
+msgctxt "Languages::addons.advanced_promotions.from_date"
+msgid "From"
+msgstr "From"
+
+msgctxt "Languages::addons.advanced_promotions.to_date"
+msgid "To"
+msgstr "To"
+
+msgctxt "Languages::addons.advanced_promotions.days_left"
+msgid "Days left"
+msgstr "Days left"
+
+msgctxt "Languages::addons.advanced_promotions.promotion_available"
+msgid "Promotion available"
+msgstr "Promotion available"
+
+msgctxt "Languages::main_info"
+msgid "Main information"
+msgstr "Main information"
+
+msgctxt "Languages::promotions_block"
+msgid "Promotions"
+msgstr "Promotions"
+
+msgctxt "Languages::promotion_image"
+msgid "Promotion image"
+msgstr "Promotion image"
+
+msgctxt "Languages::display_time_period"
+msgid "Display time period"
+msgstr "Display time period"
+
+msgctxt "Languages::display_coundown"
+msgid "Display countdown"
+msgstr "Display countdown"
+
+msgctxt "Languages::addons.advanced_promotions.more_info"
+msgid "More info"
+msgstr "More info"
+
+msgctxt "Languages::addons.advanced_promotions.promotion_info"
+msgid "Information about promotion"
+msgstr "Information about promotion"
+
+msgctxt "Languages::addons.advanced_promotions.promotion_items_are"
+msgid "Promotional items are"
+msgstr "Promotional items are"
+
+msgctxt "Languages::addons.advanced_promotions.see_all_products"
+msgid "See all products"
+msgstr "See all products"
+
+msgctxt "Languages::addons.advanced_promotions.view_promotion"
+msgid "Go to promotion page"
+msgstr "Go to promotion page"

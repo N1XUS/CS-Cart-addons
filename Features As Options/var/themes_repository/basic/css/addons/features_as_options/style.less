@@ -1,0 +1,54 @@
+.ty-product-block {
+    &__also-available {
+        &-container {
+            padding: 20px 0;
+        }
+        &-title {
+            font-size: 16px;
+            font-weight: 700;
+        }
+    }
+    .prv-option-group {
+        &__btn {
+            display: inline-block;
+            margin: 0 5px;
+            padding: 0.4em 0.53333em 0.6em;
+            background: #f1f1f1;
+            background: -webkit-linear-gradient(top, #fff, #f1f1f1);
+            background: -ms-linear-gradient(top, #fff, #f1f1f1);
+            background: -moz-linear-gradient(top, #fff, #f1f1f1);
+            background: linear-gradient('to bottom', #fff, #f1f1f1);
+            border: 1px solid #ececec;
+            border-bottom: 0;
+            box-shadow: 3px 3px 7px 0 rgba(200, 200, 200, .5), inset 0 -3px 0 0 #c1c1c1;
+            border-radius: 3px;
+            color: #333;
+            &:hover {
+                background: #faf8e1;
+                background: -webkit-linear-gradient(top, #fff, #faf8e1);
+                background: -ms-linear-gradient(top, #fff, #faf8e1);
+                background: -moz-linear-gradient(top, #fff, #faf8e1);
+                background: linear-gradient('to bottom', #fff, #faf8e1);
+                color: #fb3f4c;
+            }
+            &:active {
+                background: #e6e6e6;
+                background: -webkit-linear-gradient(top, #fbfbfb, #e6e6e6);
+                background: -ms-linear-gradient(top, #fbfbfb, #e6e6e6);
+                background: -moz-linear-gradient(top, #fbfbfb, #e6e6e6);
+                background: linear-gradient('to bottom', #fbfbfb, #e6e6e6);
+                box-shadow: 3px 3px 7px 0 rgba(200, 200, 200, .5), inset 0 -1px 0 0 #c1c1c1;
+                color: #9cf;
+            }
+            &.active {
+                color: #fff;
+                background: #4dbe41;
+                -webkit-box-shadow: inset 5px 5px 3px 0px rgba(0, 0, 0, 0.1);
+                -moz-box-shadow: inset 5px 5px 3px 0px rgba(0, 0, 0, 0.1);
+                box-shadow: inset 5px 5px 3px 0px rgba(0, 0, 0, 0.1);
+                padding-top: 0.46667em;
+                padding-bottom: 0.53333em;
+            }
+        }
+    }
+}

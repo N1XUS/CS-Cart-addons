@@ -1,0 +1,1 @@
+{__("addons.clickatell_mv.dear")} {$order.firstname} {$order.lastname}, {__("addons.clickatell_mv.your_order")} #{$order_id} {__("addons.clickatell_mv.sms_for_the_sum")} {include file="common/price.tpl" value=$total} {__("addons.clickatell_mv.is")} {$order_status_name}

@@ -1,0 +1,101 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pervolo\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: pervolo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: novaposhta.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: denis_severin <d.severin@pervolo.com>\n"
+"PO-Revision-Date: 2015-10-05 08:51-0400\n"
+
+msgctxt "Addons::name::novaposhta"
+msgid "Nova Poshta intergation"
+msgstr "Інтеграція з Новою Поштою"
+
+msgctxt "Addons::description::novaposhta"
+msgid "Allows you to get realtime shipping cost from Nova Poshta carrier"
+msgstr "Дозволяє отримати вартість доставки в реальному часі від оператора Нова Пошта"
+
+msgctxt "SettingsSections::novaposhta::general"
+msgid "General"
+msgstr "Загальні"
+
+msgctxt "SettingsOptions::novaposhta::license_key"
+msgid "License Key"
+msgstr "Ліцензійний ключ"
+
+msgctxt "SettingsOptions::novaposhta::elm_novaposhta_settings"
+msgid "API Settings"
+msgstr "API налаштування"
+
+msgctxt "SettingsOptions::novaposhta::api_key"
+msgid "API key"
+msgstr "Ключ API"
+
+msgctxt "SettingsOptions::novaposhta::cache_livetime"
+msgid "Cache lifetime (in days)"
+msgstr "Час життя кеша (в днях)"
+
+msgctxt "SettingsOptions::novaposhta::cron_password"
+msgid "Cron password"
+msgstr "Cron пароль"
+
+msgctxt "SettingsOptions::novaposhta::cron_url"
+msgid "Cron command"
+msgstr "Cron command"
+
+msgctxt "Languages::carrier_nova_poshta"
+msgid "Нова пошта"
+msgstr "Нова пошта"
+
+msgctxt "Languages::addons.novaposhta.shipping_type"
+msgid "Shipping type"
+msgstr "Тип доставки"
+
+msgctxt "Languages::addons.novaposhta.warehouse_doors"
+msgid "Warehouse -> Doors"
+msgstr "Склад -> двері"
+
+msgctxt "Languages::addons.novaposhta.warehouse_warehouse"
+msgid "Warehouse -> Warehouse"
+msgstr "Склад -> склад"
+
+msgctxt "Languages::addons.novaposhta.default_weight"
+msgid "Default shipment weight"
+msgstr "Вага вантажу за промовчанням"
+
+msgctxt "Languages::addons.novaposhta.default_volume"
+msgid "Default shipment volume"
+msgstr "Об'єм вантажу за промовчанням"
+
+msgctxt "Languages::nova_poshta_renew_cities"
+msgid "Update cities list"
+msgstr "Оновити список міст"
+
+msgctxt "Languages::nova_poshta_renew_regions"
+msgid "Update regions list"
+msgstr "Оновити список областей"
+
+msgctxt "Languages::addons.novaposhta_cron_url"
+msgid "You can use Cron to update cities info.<br />Use the following line to run the script according to schedule:<br /> php [dir_root] --dispatch=novaposhta.renew_cities --cron_password=[cron_password].<br />Or /usr/bin/wget -O - -q -t 1 '[url_path]'"
+msgstr "Ви можете використовувати Cron для оновлення інформації про міста.<br />Використовуйте наступну команду для запуску скрипта за розкладом:<br /> php [dir_root] --dispatch=novaposhta.renew_cities --cron_password=[cron_password]<br />Or /usr/bin/wget -O - -q -t 1 '[url_path]'"
+
+msgctxt "Languages::shipment_status"
+msgid "Shipment status"
+msgstr "Статус вантажу"
+
+msgctxt "Languages::shipment_received_at"
+msgid "Shipment received at"
+msgstr "Вантаж отримано в"
+
+msgctxt "Languages::reception_time"
+msgid "Reception time"
+msgstr "Час роботи"
+
+msgctxt "Languages::addons.novaposhta.api_key_not_specified"
+msgid "API key not specified!"
+msgstr "API ключ порожній!"

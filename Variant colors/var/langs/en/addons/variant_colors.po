@@ -1,0 +1,17 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::variant_colors"
+msgid "Product feature variants colors"
+msgstr "Product feature variants colors"
+
+msgctxt "Addons::description::variant_colors"
+msgid "Gives you ability to add colored box to feature variant"
+msgstr "Gives you ability to add colored box to feature variant"
+
+msgctxt "Languages::color_feature"
+msgid "Color variants"
+msgstr "Color variants"

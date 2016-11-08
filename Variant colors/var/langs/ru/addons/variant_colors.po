@@ -1,0 +1,26 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pervolo\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: pervolo\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: variant_colors.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: denis_severin <d.severin@pervolo.com>\n"
+"PO-Revision-Date: 2015-10-07 09:49-0400\n"
+
+msgctxt "Addons::name::variant_colors"
+msgid "Product feature variants colors"
+msgstr "Цветные варианты характеристик"
+
+msgctxt "Addons::description::variant_colors"
+msgid "Gives you ability to add colored box to feature variant"
+msgstr "Дает возможность устанавливать цветную иконку для вариантов характеристик"
+
+msgctxt "Languages::color_feature"
+msgid "Color variants"
+msgstr "Цветные варианты"
+

@@ -1,0 +1,190 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::price_drop_alert"
+msgid "Price drop alert"
+msgstr "Price drop alert"
+
+msgctxt "Addons::description::price_drop_alert"
+msgid "Allows customers to subscribe and receive messages when product price drops"
+msgstr "Allows customers to subscribe and receive messages when product price drops"
+
+msgctxt "SettingsSections::price_drop_alert::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::price_drop_alert::license_key"
+msgid "License key"
+msgstr "License key"
+
+msgctxt "SettingsOptions::price_drop_alert::subscription_confirmation"
+msgid "Subscription confirmation"
+msgstr "Subscription confirmation"
+
+msgctxt "SettingsOptions::price_drop_alert::delete_unsubscribed"
+msgid "Delete unsubscribed users"
+msgstr "Delete unsubscribed users"
+
+msgctxt "SettingsOptions::price_drop_alert::notify_admin"
+msgid "Notify admin about new subscription"
+msgstr "Notify admin about new subscription"
+
+msgctxt "SettingsOptions::price_drop_alert::admin_email"
+msgid "Administrator E-Mail"
+msgstr "Administrator E-Mail"
+
+
+msgctxt "SettingsOptions::price_drop_alert::default_price_percent"
+msgid "Price drop by default (in perсent)"
+msgstr "Price drop by default (in perсent)"
+
+msgctxt "Languages::price_drop_alert"
+msgid "Price drop alert"
+msgstr "Price drop alert"
+
+msgctxt "Languages::price_drop_alert_menu_description"
+msgid "Manage subscribed customers"
+msgstr "Manage subscribed customers"
+
+msgctxt "Languages::price_drop_subscribers"
+msgid "List of subscribed customers"
+msgstr "List of subscribed customers"
+
+msgctxt "Languages::price_drop_statistics"
+msgid "Subscribers statistics"
+msgstr "Subscribers statistics"
+
+msgctxt "Languages::target_price"
+msgid "Target price"
+msgstr "Target price"
+
+msgctxt "Languages::notification_type"
+msgid "Notification type"
+msgstr "Notification type"
+
+msgctxt "Languages::addons.price_drop_alert.notification_type_o"
+msgid "Once price was decreased"
+msgstr "Once price was decreased"
+
+msgctxt "Languages::addons.price_drop_alert.notification_type_a"
+msgid "Anytime price drops"
+msgstr "Anytime price drops"
+
+msgctxt "Languages::addons.price_drop_alert.status_p"
+msgid "Waiting for subscription approval"
+msgstr "Waiting for subscription approval"
+
+msgctxt "Languages::addons.price_drop_alert.status_q"
+msgid "Queued"
+msgstr "Queued"
+
+msgctxt "Languages::addons.price_drop_alert.status_n"
+msgid "Notified"
+msgstr "Notified"
+
+msgctxt "Languages::addons.price_drop_alert.status_u"
+msgid "Unsubscribed"
+msgstr "Unsubscribed"
+
+msgctxt "Languages::addons.price_drop_alert.notify_when_price_drops"
+msgid "Notify me when price drops"
+msgstr "Notify me when price drops"
+
+msgctxt "Languages::addons.price_drop_alert.when_to_send"
+msgid "Send me an email"
+msgstr "Send me an email"
+
+msgctxt "Languages::addons.price_drop_alert.anytime_price_drops"
+msgid "Everytime price drops"
+msgstr "Everytime price drops"
+
+msgctxt "Languages::addons.price_drop_alert.if_price_below"
+msgid "If price below"
+msgstr "If price below"
+
+msgctxt "Languages::addons.price_drop_alert.updated"
+msgid "Price drop alert for <strong>[PRODUCT_NAME]</strong> is updated"
+msgstr "Price drop alert for <strong>[PRODUCT_NAME]</strong> is updated"
+
+msgctxt "Languages::addons.price_drop_alert.signed"
+msgid "You will now receive notification about price drop of <strong>[PRODUCT_NAME]</strong>"
+msgstr "You will now receive notification about price drop of <strong>[PRODUCT_NAME]</strong>"
+
+msgctxt "Languages::addons.price_drop_alert.confirmation_send"
+msgid "We have sent you a confirmation letter for price drop alert"
+msgstr "We have sent you a confirmation letter for price drop alert"
+
+msgctxt "Languages::addons.price_drop_alert.confirmation_approved"
+msgid "Your subscription about price drop for product <strong>[PRODUCT_NAME]</strong> is activated"
+msgstr "Your subscription about price drop for product <strong>[PRODUCT_NAME]</strong> is activated"
+
+msgctxt "Languages::addons.price_drop_alert.already_notified"
+msgid "You have already been notified about <strong>[PRODUCT_NAME]</strong> price drop"
+msgstr "You have already been notified about <strong>[PRODUCT_NAME]</strong> price drop"
+
+msgctxt "Languages::addons.price_drop_alert.already_approved"
+msgid "You have already been approved for notifications about <strong>[PRODUCT_NAME]</strong> price drop"
+msgstr "You have already been approved for notifications about <strong>[PRODUCT_NAME]</strong> price drop"
+
+msgctxt "Languages::addons.price_drop_alert.alert_subj"
+msgid "Price for product is dropped"
+msgstr "Price for product is dropped"
+
+msgctxt "Languages::addons.price_drop_alert.alert_heading"
+msgid "Price for product is dropped."
+msgstr "Price for product is dropped."
+
+msgctxt "Languages::addons.price_drop_alert.alert_text"
+msgid "Price for product <strong>[PRODUCT_NAME]</strong> is dropped. You are welcome to check out."
+msgstr "Price for product <strong>[PRODUCT_NAME]</strong> is dropped. You are welcome to check out."
+
+msgctxt "Languages::addons.price_drop_alert.new_price"
+msgid "New price is"
+msgstr "New price is"
+
+msgctxt "Languages::addons.price_drop_alert.confirm_subj"
+msgid "Please confirm subscription for product price drop for product [PRODUCT_NAME]"
+msgstr "Please confirm subscription for product price drop for product [PRODUCT_NAME]"
+
+msgctxt "Languages::addons.price_drop_alert.confirm_heading"
+msgid "Confirm your subscription"
+msgstr "Confirm your subscription"
+
+msgctxt "Languages::addons.price_drop_alert.confirm_text"
+msgid "Recently you requested price drop notifications for product <strong>[PRODUCT_NAME]</strong>. Please confirm your subscription."
+msgstr "Recently you requested price drop notifications for product <strong>[PRODUCT_NAME]</strong>. Please confirm your subscription."
+
+msgctxt "Languages::addons.price_drop_alert.target_price"
+msgid "Target price"
+msgstr "Target price"
+
+msgctxt "Languages::addons.price_drop_alert.confirm_subscription"
+msgid "Confirm your subscription"
+msgstr "Confirm your subscription"
+
+msgctxt "Languages::addons.price_drop_alert.new_subscriber_subj"
+msgid "New price drop subscription for [PRODUCT_NAME]"
+msgstr "New price drop subscription for [PRODUCT_NAME]"
+
+msgctxt "Languages::addons.price_drop_alert.new_subscriber_body"
+msgid "Customer with E-Mail [EMAIL] subscribed for notification about price drop below [TARGET_PRICE] for [URL]"
+msgstr "Customer with E-Mail [EMAIL] subscribed for notification about price drop below [TARGET_PRICE] for [URL]"
+
+msgctxt "Languages::price_drop_alert.use_for_price_drop_alert"
+msgid "Price drop alert form"
+msgstr "Price drop alert form"
+
+msgctxt "Languages::manage_subscribers"
+msgid "Manage subscribers"
+msgstr "Manage subscribers"
+
+msgctxt "Languages::subscribers_statistics"
+msgid "Subscribers statistics"
+msgstr "Subscribers statistics"
+
+msgctxt "Languages::addons.price_drop_alert.unsubscribed"
+msgid "You are now unsubscribed from notifications about price drop for product <strong>[PRODUCT_NAME]</strong>"
+msgstr "You are now unsubscribed from notifications about price drop for product <strong>[PRODUCT_NAME]</strong>"

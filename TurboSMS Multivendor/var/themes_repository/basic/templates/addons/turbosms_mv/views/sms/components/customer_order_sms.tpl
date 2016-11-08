@@ -1,0 +1,1 @@
+{__("addons.turbosms_mv.dear")} {$order.firstname} {$order.lastname}, {__("addons.turbosms_mv.your_order")} #{$order_id} {__("addons.turbosms_mv.sms_for_the_sum")} {include file="common/price.tpl" value=$total} {__("addons.turbosms_mv.is")} {$order_status_name}

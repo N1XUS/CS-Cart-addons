@@ -1,0 +1,193 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pervolo\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: pervolo\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: smsc_mv.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: denis_severin <d.severin@pervolo.com>\n"
+"PO-Revision-Date: 2015-10-06 03:58-0400\n"
+
+msgctxt "Addons::name::smsc_mv"
+msgid "smsc.ru intergation"
+msgstr "Интеграция с сервисом smsc.ru"
+
+msgctxt "Addons::description::smsc_mv"
+msgid "Allows you to set up administrator and customer SMS notifications"
+msgstr "Позволяет администраторам и покупателям получать смс уведомления"
+
+msgctxt "SettingsOptions::smsc_mv::license_key"
+msgid "License Key"
+msgstr "Лицензионный ключ"
+
+msgctxt "SettingsVariants::smsc_mv::customer_phone_field::s"
+msgid "Shipping address phone"
+msgstr "Телефон адреса доставки"
+
+msgctxt "SettingsVariants::smsc_mv::customer_phone_field::b"
+msgid "Billing address phone"
+msgstr "Телефон адреса плательщика"
+
+msgctxt "SettingsSections::smsc_mv::general"
+msgid "General"
+msgstr "Основные"
+
+msgctxt "SettingsOptions::smsc_mv::elm_smsc_mv_settings"
+msgid "smsc.ru Settings"
+msgstr "Настройки smsc_mv.ru"
+
+msgctxt "SettingsOptions::smsc_mv::smsc_login"
+msgid "smsc.ru Login"
+msgstr "Логин smsc.ru"
+
+msgctxt "SettingsOptions::smsc_mv::smsc_password"
+msgid "smsc.ru Password"
+msgstr "Пароль smsc.ru"
+
+msgctxt "SettingsOptions::smsc_mv::smsc_mv_sender"
+msgid "smsc_mv.ru Display name"
+msgstr "Отображаемое имя"
+
+msgctxt "SettingsOptions::smsc_mv::elm_admin_send_sms_if"
+msgid "Send SMS if"
+msgstr "Отправить сообщение если"
+
+msgctxt "SettingsOptions::smsc_mv::elm_customer_send_sms_if"
+msgid "Send SMS if"
+msgstr "Отправить сообщение если"
+
+msgctxt "SettingsOptions::smsc_mv::elm_vendor_send_sms_if"
+msgid "Send SMS if"
+msgstr "Отправить сообщение если"
+
+msgctxt "SettingsSections::smsc_mv::admin_notifications"
+msgid "Administrator notifications"
+msgstr "Уведомления администраторов"
+
+msgctxt "SettingsOptions::smsc_mv::admin_phone_number"
+msgid "Administrator phone number"
+msgstr "Номера телефонов администраторов (через запятую)"
+
+msgctxt "SettingsOptions::smsc_mv::admin_sms_new_cusomer_registered"
+msgid "New customer has been registered"
+msgstr "Зарегистрирован новый пользователь"
+
+msgctxt "SettingsOptions::smsc_mv::admin_sms_new_order_placed"
+msgid "New order has been placed"
+msgstr "Размещен новый заказ"
+
+msgctxt "SettingsOptions::smsc_mv::admin_sms_order_updated"
+msgid "Order has been updated"
+msgstr "Заказ был обновлен"
+
+msgctxt "SettingsOptions::smsc_mv::admin_sms_send_min_amount"
+msgid "Only send when order total amount is more than"
+msgstr "Отправлять, только если сумма заказа превышает"
+
+msgctxt "SettingsOptions::smsc_mv::admin_sms_send_shipping"
+msgid "Only send for these shipping methods"
+msgstr "Отправлять, только если выбран один из следующих способов доставки"
+
+msgctxt "SettingsOptions::smsc_mv::admin_sms_send_order_statuses"
+msgid "Only send for these order statuses"
+msgstr "Отправлять, только если статус заказа один из следующих"
+
+msgctxt "SettingsOptions::smsc_mv::admin_sms_product_negative_amount"
+msgid "Product quantity is less than zero"
+msgstr "Количество товара в наличии меньше нуля"
+
+msgctxt "SettingsOptions::smsc_mv::admin_elm_sms_content"
+msgid "SMS content"
+msgstr "Содержание SMS"
+
+msgctxt "SettingsOptions::smsc_mv::admin_sms_send_payment_info"
+msgid "Add payment info"
+msgstr "Добавить информацию об оплате"
+
+msgctxt "SettingsOptions::smsc_mv::admin_sms_send_customer_email"
+msgid "Add customers e-mail"
+msgstr "Добавить эл. почту покупателя"
+
+msgctxt "SettingsSections::smsc_mv::customer_notifications"
+msgid "Customer notifications"
+msgstr "Уведомления покупателей"
+
+msgctxt "SettingsOptions::smsc_mv::customer_phone_field"
+msgid "Customer phone field"
+msgstr "Поле телефона покупателя"
+
+msgctxt "SettingsOptions::smsc_mv::customer_sms_order_updated"
+msgid "Order has been updated"
+msgstr "Заказ был обновлен"
+
+msgctxt "SettingsOptions::smsc_mv::customer_sms_send_shipping"
+msgid "Only send for these shipping methods"
+msgstr "Отправлять, только если выбран один из следующих способов доставки"
+
+msgctxt "SettingsOptions::smsc_mv::customer_sms_send_order_statuses"
+msgid "Only send for these order statuses"
+msgstr "Отправлять, только если статус заказа один из следующих"
+
+msgctxt "SettingsOptions::smsc_mv::customer_sms_send_min_amount"
+msgid "Only send when order total amount is more than"
+msgstr "Отправлять, только если сумма заказа превышает"
+
+msgctxt "SettingsSections::smsc_mv::vendor_notifications"
+msgid "Vendors notifications"
+msgstr "Уведомления продавцов"
+
+msgctxt "SettingsOptions::smsc_mv::vendor_sms_new_order_placed"
+msgid "New order has been placed"
+msgstr "Размещен новый заказ"
+
+msgctxt "SettingsOptions::smsc_mv::vendor_sms_order_updated"
+msgid "Order has been updated"
+msgstr "Заказ был обновлен"
+
+msgctxt "SettingsOptions::smsc_mv::vendor_sms_send_min_amount"
+msgid "Only send when order total amount is more than"
+msgstr "Отправлять, только если сумма заказа превышает"
+
+msgctxt "SettingsOptions::smsc_mv::vendor_sms_send_shipping"
+msgid "Only send for these shipping methods"
+msgstr "Отправлять, только если выбран один из следующих способов доставки"
+
+msgctxt "SettingsOptions::smsc_mv::vendor_sms_send_order_statuses"
+msgid "Only send for these order statuses"
+msgstr "Отправлять, только если статус заказа один из следующих"
+
+msgctxt "SettingsOptions::smsc_mv::vendor_sms_product_negative_amount"
+msgid "Product quantity is less than zero"
+msgstr "Количество товара в наличии меньше нуля"
+
+msgctxt "SettingsOptions::smsc_mv::vendor_elm_sms_content"
+msgid "SMS content"
+msgstr "Содержание SMS"
+
+msgctxt "SettingsOptions::smsc_mv::vendor_sms_send_payment_info"
+msgid "Add payment info"
+msgstr "Добавить информацию об оплате"
+
+msgctxt "SettingsOptions::smsc_mv::vendor_sms_send_customer_email"
+msgid "Add customers e-mail"
+msgstr "Добавить эл. почту покупателя"
+
+msgctxt "Languages::addons.smsc_mv.custom_sms_message"
+msgid "Custom SMS message"
+msgstr "СМС сообщение"
+
+msgctxt "Languages::addons.smsc_mv.sms_placeholders"
+msgid "You can use these placeholders:<br /><strong>%ORDER_ID%</strong> equals to order ID;<br /><strong>%NAME%</strong> equals to customers name;<br /><strong>%LAST_NAME%</strong> equals to customers last name;<br /><strong>%USER_EMAIL%</strong> equals to customers E-Mail;<br /><strong>%ORDER_TOTAL%</strong> equals to order total;<br />"
+msgstr "Вы можете использовать следующие заполнители:<br /><strong>%ORDER_ID%</strong> равен номеру заказа;<br /><strong>%NAME%</strong> равен имени пользователя;<br /><strong>%LAST_NAME%</strong> равен фамилии пользователя;<br /><strong>%USER_EMAIL%</strong> равен E-Mail покупалетя;<br /><strong>%ORDER_TOTAL%</strong> равен сумме заказа;<br />"
+
+msgctxt "Languages::addons.smsc_mv.new_shipment_sms"
+msgid "Shipment for order [order_id] was send. Shipping method: [shipping_method]. It was assigned [tracking_number] tracking number"
+msgstr "Заказ [order_id] был отправлен. Способ доставки: [shipping_method]. Ему назначен номер отслеживания [tracking_number]
+
+msgctxt "Languages::addons.smsc_mv.is"
+msgid "is"
+msgstr "получил статус"

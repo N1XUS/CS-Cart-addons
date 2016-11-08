@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>review_requests</id>
+    <version>1.1</version>
+    <status>active</status>
+    <priority>1000</priority>
+    <position>0</position>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language>
+    <authors>
+        <author>
+            <name>Pervolo</name>
+            <email>info@pervolo.com</email>
+            <url>http://pervolo.com</url>
+            <phone>+380 (99) 790-57-96</phone>
+        </author>
+    </authors>
+    <compatibility>
+        <dependencies>discussion</dependencies>
+    </compatibility>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="license_key">
+                        <type>input</type>
+                        <default_value />
+                        <variants />
+                    </item>
+                    <item id="requests_settings">
+                        <type>header</type>
+                        <variants/>
+                    </item>
+                    <item id="cron_password">
+                        <type>input</type>
+                        <default_value>MYPASS</default_value>
+                        <variants/>
+                    </item>
+                    <item id="order_statuses">
+                        <type>multiple checkboxes</type>
+                        <variants/>
+                    </item>
+                    <item id="send_request_after_days">
+                        <type>input</type>
+                        <default_value>20</default_value>
+                        <variants/>
+                    </item>
+                    <item id="cron_url">
+                        <type>info</type>
+                        <handler>fn_review_requests_get_cron_info</handler>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item for="install">
+            ALTER TABLE `?:orders` ADD review_requested char(1) NULL DEFAULT 'N';
+        </item>
+        <item for="uninstall">
+            ALTER TABLE `?:orders` DROP review_requested;
+        </item>
+    </queries>
+</addon>

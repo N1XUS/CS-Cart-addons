@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>abandoned_cart_reminder</id>
+    <version>1.0</version>
+    <status>active</status>
+    <priority>1001</priority>
+    <position>0</position>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language>
+    <authors>
+        <author>
+            <name>Pervolo</name>
+            <email>info@pervolo.com</email>
+            <url>http://pervolo.com</url>
+            <phone>+380 (99) 790-57-96</phone>
+        </author>
+    </authors>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="license_key">
+                        <type>input</type>
+                        <default_value />
+                        <variants />
+                    </item>
+                    <item id="cron_password">
+                        <type>input</type>
+                        <default_value>MYPASS</default_value>
+                        <variants />
+                    </item>
+                    <item id="abandoned_min_days">
+                        <type>input</type>
+                        <default_value>7</default_value>
+                        <variants />
+                    </item>
+                    <item id="abandoned_max_days">
+                        <type>input</type>
+                        <default_value>21</default_value>
+                        <variants />
+                    </item>
+                    <item id="cron_url">
+                        <type>info</type>
+                        <handler>fn_abandoned_cart_get_cron_url_info</handler>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+</addon>

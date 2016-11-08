@@ -1,0 +1,1 @@
+<th width="15%">{__("review_request_sended")}</th>

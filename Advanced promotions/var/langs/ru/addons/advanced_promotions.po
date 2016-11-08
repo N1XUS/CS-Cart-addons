@@ -1,0 +1,113 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pervolo\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: pervolo\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: variant_colors.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: denis_severin <d.severin@pervolo.com>\n"
+"PO-Revision-Date: 2015-10-07 09:49-0400\n"
+
+msgctxt "Addons::name::advanced_promotions"
+msgid "Advanced promotions views"
+msgstr "Расширенный дизайн промо-акций"
+
+msgctxt "Addons::description::advanced_promotions"
+msgid "Extends standart design of promotions in frontend"
+msgstr "Расширяет стандартный дизайн страницы промо-акций в пользовательской части"
+
+msgctxt "SettingsOptions::advanced_promotions::license_key"
+msgid "License Key"
+msgstr "Лицензионный ключ"
+
+msgctxt "Languages::promotion_pages"
+msgid "Promotion pages"
+msgstr "Страницы промо-акций"
+
+msgctxt "Languages::promotion_details_page"
+msgid "Promotion details page"
+msgstr "Детальная страница промо-акций"
+
+msgctxt "Languages::add_promotions_and_close"
+msgid "Add promotion and close"
+msgstr "Добавить промо-акцию и закрыть"
+
+msgctxt "Languages::conditions_description"
+msgid "Description for conditions"
+msgstr "Описание условий акции"
+
+msgctxt "Languages::promotion_images"
+msgid "Promotion images"
+msgstr "Изображения промо-акции"
+
+msgctxt "Languages::text_promotion_main_image"
+msgid "Promotion main image"
+msgstr "Главное изображение промо-акции"
+
+msgctxt "Languages::text_promotion_list_image"
+msgid "Promotion image on list page"
+msgstr "Изображение для страницы списка промо-акций"
+
+msgctxt "Languages::addons.advanced_promotions.promotion_ends"
+msgid "Ends [DAYS_LEFT_VALUE]"
+msgstr "Завершится [DAYS_LEFT_VALUE]"
+
+msgctxt "Languages::addons.advanced_promotions.from_date"
+msgid "From"
+msgstr "С"
+
+msgctxt "Languages::addons.advanced_promotions.to_date"
+msgid "To"
+msgstr "До"
+
+msgctxt "Languages::addons.advanced_promotions.days_left"
+msgid "Days left"
+msgstr "До конца акции осталось"
+
+msgctxt "Languages::addons.advanced_promotions.promotion_available"
+msgid "Promotion available"
+msgstr "Период проведения акции"
+
+msgctxt "Languages::main_info"
+msgid "Main information"
+msgstr "Основная информация"
+
+msgctxt "Languages::promotions_block"
+msgid "Promotions"
+msgstr "Промо-акции"
+
+msgctxt "Languages::display_time_period"
+msgid "Display time period"
+msgstr "Отображать временные рамки"
+
+msgctxt "Languages::promotion_image"
+msgid "Promotion image"
+msgstr "Изображение промо-акции"
+
+msgctxt "Languages::display_coundown"
+msgid "Display countdown"
+msgstr "Отображать счетчик"
+
+msgctxt "Languages::addons.advanced_promotions.more_info"
+msgid "More info"
+msgstr "Больше информации"
+
+msgctxt "Languages::addons.advanced_promotions.promotion_info"
+msgid "Information about promotion"
+msgstr "Информация о промо-акции"
+
+msgctxt "Languages::addons.advanced_promotions.promotion_items_are"
+msgid "Promotional items are"
+msgstr "Товары участвующие в акции"
+
+msgctxt "Languages::addons.advanced_promotions.see_all_products"
+msgid "See all products"
+msgstr "Просмотреть все товары"
+
+msgctxt "Languages::addons.advanced_promotions.view_promotion"
+msgid "Go to promotion page"
+msgstr "Перейти на страницу акции"

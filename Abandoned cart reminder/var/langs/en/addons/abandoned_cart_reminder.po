@@ -1,0 +1,57 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::abandoned_cart_reminder"
+msgid "Abandoned cart reminder"
+msgstr "Abandoned cart reminder"
+
+msgctxt "Addons::description::abandoned_cart_reminder"
+msgid "Add-on sends E-Mail reminders to customers with incomplete orders"
+msgstr "Add-on sends E-Mail reminders to customers with incomplete orders"
+
+msgctxt "SettingsSections::abandoned_cart_reminder::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::abandoned_cart_reminder::license_key"
+msgid "License Key"
+msgstr "License Key"
+
+msgctxt "SettingsOptions::abandoned_cart_reminder::cron_password"
+msgid "Cron password"
+msgstr "Cron password"
+
+msgctxt "SettingsOptions::abandoned_cart_reminder::abandoned_min_days"
+msgid "Cart abandoned minimum days"
+msgstr "Cart abandoned minimum days"
+
+msgctxt "SettingsOptions::abandoned_cart_reminder::abandoned_max_days"
+msgid "Cart abandoned maximum days"
+msgstr "Cart abandoned maximum days"
+
+msgctxt "SettingsOptions::abandoned_cart_reminder::abandoned_max_days"
+msgid "Cart abandoned maximum days"
+msgstr "Cart abandoned maximum days"
+
+msgctxt "SettingsOptions::abandoned_cart_reminder::cron_url"
+msgid "Cron command"
+msgstr "Cron command"
+
+msgctxt "Languages::addons.abandoned_cart_reminder_cron_url"
+msgid "Use the following line to run the script according to schedule:<br /> php [dir_root] --dispatch=cart_reminder.send --cron_password=[cron_password].<br />Or /usr/bin/wget -O - -q -t 1 '[url_path]'"
+msgstr "Use the following line to run the script according to schedule:<br /> php [dir_root] --dispatch=cart_reminder.send --cron_password=[cron_password]<br />Or /usr/bin/wget -O - -q -t 1 '[url_path]'"
+
+msgctxt "Languages::addons.abandoned_cart_reminder.you_have_incompleted_orders"
+msgid "You have incomplete order"
+msgstr "You have incomplete order"
+
+msgctxt "Languages::addons.abandoned_cart_reminder.remind_text"
+msgid "Recently you've added products to cart, but did not complete the purchase."
+msgstr "Recently you've added products to cart, but did not complete the purchase."
+
+msgctxt "Languages::addons.abandoned_cart_reminder"
+msgid "[NAME], you have incomplete order"
+msgstr "[NAME], you have incomplete order"

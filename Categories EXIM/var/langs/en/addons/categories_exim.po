@@ -1,0 +1,17 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::categories_exim"
+msgid "Categories import/export"
+msgstr "Categories import/export"
+
+msgctxt "Addons::description::categories_exim"
+msgid "Allows you to import and export categories"
+msgstr "Allows you to import and export categories"
+
+msgctxt "SettingsOptions::categories_exim::license_key"
+msgid "License Key"
+msgstr "License Key"

@@ -1,0 +1,1 @@
+{$company_data.company_name nofilter}: {__("addons.price_drop_alert.alert_subj", ["[PRODUCT_NAME]" => "{$data.product_name}"])}

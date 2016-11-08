@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>variant_colors</id>
+    <version>1.0</version>
+    <status>active</status>
+    <priority>1001</priority>
+    <position>0</position>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language>
+    <authors>
+        <author>
+            <name>Pervolo</name>
+            <email>info@pervolo.com</email>
+            <url>http://pervolo.com</url>
+            <phone>+380 (99) 790-57-96</phone>
+        </author>
+    </authors>
+    <queries>
+        <item for="install">
+            ALTER TABLE `?:product_feature_variants` ADD color VARCHAR(7) NULL DEFAULT NULL;
+        </item>
+        <item for="install">
+            ALTER TABLE `?:product_features` ADD color CHAR(1) NOT NULL DEFAULT 'N';
+        </item>
+        <item for="uninstall">
+            ALTER TABLE `?:product_feature_variants` DROP color;
+        </item>
+        <item for="uninstall">
+            ALTER TABLE `?:product_features` DROP color;
+        </item>
+    </queries>
+</addon>

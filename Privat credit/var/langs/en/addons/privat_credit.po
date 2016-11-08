@@ -1,0 +1,65 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::privat_credit"
+msgid "Partial payments via PrivatBank"
+msgstr "Partial payments via PrivatBank"
+
+msgctxt "SettingsSections::privat_credit::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::privat_credit::license_key"
+msgid "License Key"
+msgstr "License Key"
+
+msgctxt "Languages::addons.privat_credit.identifier"
+msgid "Store identifier"
+msgstr "Store identifier"
+
+msgctxt "Languages::addons.privat_credit.parts_count"
+msgid "Number of payments"
+msgstr "Number of payments"
+
+msgctxt "Languages::addons.privat_credit.success"
+msgid "Order status for success response"
+msgstr "Order status for success response"
+
+msgctxt "Languages::addons.privat_credit.wait"
+msgid "Order status for wait response"
+msgstr "Order status for wait response"
+
+msgctxt "Languages::addons.privat_credit.instant_installment"
+msgid "Instant installment"
+msgstr "Instant installment"
+
+msgctxt "Languages::addons.privat_credit.partial_payments"
+msgid "Partial payments"
+msgstr "Partial payments"
+
+msgctxt "Languages::addons.privat_credit.privat_credit_form_page_ii"
+msgid "Privatbank's Instant installment service"
+msgstr "Privatbank's Instant installment service"
+
+msgctxt "Languages::addons.privat_credit.privat_credit_form_page_pp"
+msgid "Privatbank's Partial payments service"
+msgstr "Privatbank's Partial payments service"
+
+msgctxt "Languages::addons.privat_credit.usd"
+msgid "US Dollars"
+msgstr "US Dollars"
+
+msgctxt "Languages::addons.privat_credit.uah"
+msgid "Ukrainian hryvna"
+msgstr "Ukrainian hryvna"
+
+msgctxt "Languages::addons.privat_credit.rub"
+msgid "Russian Ruble"
+msgstr "Russian Ruble"
+
+msgctxt "Languages::addons.privat_credit.usd"
+msgid "US Dollars"
+msgstr "US Dollars"

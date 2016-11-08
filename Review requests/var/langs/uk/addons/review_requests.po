@@ -1,0 +1,69 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pervolo\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: pervolo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: smsc.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: denis_severin <d.severin@pervolo.com>\n"
+"PO-Revision-Date: 2015-10-06 03:58-0400\n"
+
+msgctxt "Addons::name::review_requests"
+msgid "Product review requests"
+msgstr "Запити на відгуки про товар"
+
+msgctxt "Addons::description::review_requests"
+msgid "Sends E-Mail to customers requesting feedback on products"
+msgstr "Відправляє E-Mail покупцям з проханням залишити відгуки для придбаних товарах"
+
+msgctxt "SettingsSections::review_requests::general"
+msgid "General"
+msgstr "Основні"
+
+msgctxt "SettingsOptions::review_requests::license_key"
+msgid "License key"
+msgstr "Ліцензійний ключ"
+
+msgctxt "SettingsOptions::review_requests::requests_settings"
+msgid "Requests settings"
+msgstr "Налаштування запитів"
+
+msgctxt "SettingsOptions::review_requests::cron_password"
+msgid "Cron password"
+msgstr "Cron пароль"
+
+msgctxt "SettingsOptions::review_requests::order_statuses"
+msgid "Order statuses"
+msgstr "Статуси замовлення"
+
+msgctxt "SettingsOptions::review_requests::send_request_after_days"
+msgid "Send request E-Mail after (days)"
+msgstr "Відправити запит через (днів)"
+
+msgctxt "Languages::addons.review_requests_cron_url"
+msgid "You can use Cron to send requests to customers.<br />Use the following line to run the script according to schedule:<br /> php [dir_root] --dispatch=review_requests.send_request --cron_password=[cron_password].<br />Or /usr/bin/wget -O - -q -t 1 '[url_path]'"
+msgstr "Ви можете використовувати Cron для відправлення запитів покупцям.<br />Використовуйте наступну команду для запуску скрипта за розкладом:<br /> php [dir_root] --dispatch=review_requests.send_request --cron_password=[cron_password]<br />Або /usr/bin/wget -O - -q -t 1 '[url_path]'"
+
+msgctxt "Languages::addons.review_requests.request_heading"
+msgid "Tell us about your experience of using purchased products"
+msgstr "Розкажіть нам про свій досвід використання придбаних товарів"
+
+msgctxt "Languages::addons.review_requests.request_text"
+msgid "Hello, [NAME]. We would like to hear your story about using purchased products from order #[ORDER_ID]."
+msgstr "Привіт, [NAME]. Ми б хотіли почути Вашу історію про використання придбаних товарів із замовлення №[ORDER_ID]"
+
+msgctxt "Languages::addons.review_requests.request_subj"
+msgid "[NAME], would you like to share your experience of using products from order #[ORDER_ID]?"
+msgstr "[NAME], не хотіли б Ви поділитися своїм досвідом використання товарів із замовлення №[ORDER_ID]?"
+
+msgctxt "Languages::promotion_cond_left_comment_about_purchased_product"
+msgid "Customer left review of purchased product"
+msgstr "Покупець залишив відгук про куплений товар"
+
+msgctxt "Languages::promotion_cond_left_comment"
+msgid "Customer left a comment for product"
+msgstr "Покупець залишив коментар до товару"

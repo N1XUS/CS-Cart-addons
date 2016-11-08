@@ -1,0 +1,1 @@
+{$company_data.company_name nofilter}: {__("addons.abandoned_cart_reminder", ["[NAME]" => "{$cart.user_info.firstname} {$cart.user_info.lastname}"])}

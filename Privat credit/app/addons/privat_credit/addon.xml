@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>privat_credit</id>
+    <version>1.0</version>
+    <status>active</status>
+    <priority>1000</priority>
+    <position>0</position>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language>
+    <authors>
+        <author>
+            <name>Pervolo</name>
+            <email>info@pervolo.com</email>
+            <url>http://pervolo.com</url>
+            <phone>+380 (99) 790-57-96</phone>
+        </author>
+    </authors>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="license_key">
+                        <type>input</type>
+                        <default_value />
+                        <variants />
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <functions>
+        <item for="install">fn_privat_credit_install</item>
+        <item for="uninstall">fn_privat_credit_uninstall</item>
+    </functions>
+</addon>

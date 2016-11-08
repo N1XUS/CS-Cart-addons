@@ -1,0 +1,1 @@
+<li>{btn type="list" text={__("send_review_request")} href="orders.send_request?order_id=`$o.order_id`&redirect_url=`$current_redirect_url`" form="orders_list_form"}</li>

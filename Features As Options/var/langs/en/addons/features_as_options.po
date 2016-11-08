@@ -1,0 +1,65 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::features_as_options"
+msgid "Product features as product options"
+msgstr "Product features as product options"
+
+msgctxt "Addons::description::features_as_options"
+msgid "Allows you to use default CS-Cart product features as product options"
+msgstr "Allows you to use default CS-Cart product features as product options"
+
+msgctxt "SettingsSections::features_as_options::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::features_as_options::license_key"
+msgid "License Key"
+msgstr "License Key"
+
+msgctxt "SettingsOptions::features_as_options::word_for_child"
+msgid "Word for child item"
+msgstr "Word for child item"
+
+msgctxt "SettingsOptions::features_as_options::word_for_parent"
+msgid "Word for parent item"
+msgstr "Word for parent item"
+
+msgctxt "Languages::use_as_comparsion_feature"
+msgid "Use this feature as comparsion item"
+msgstr "Use this feature as comparsion item"
+
+msgctxt "Languages::ttc_use_as_comparsion_feature"
+msgid "If checked, addon will select every product that have the same feature value and group them into options"
+msgstr "If checked, addon will select every product that have the same feature value and group them into options"
+
+msgctxt "Languages::use_as_option"
+msgid "Use this feature as option group"
+msgstr "Use this feature as option group"
+
+msgctxt "Languages::ttc_use_as_option"
+msgid "If checked, addon will group products by this feature"
+msgstr "If checked, addon will group products by this feature"
+
+msgctxt "Languages::also_available_models"
+msgid "Also available models"
+msgstr "Also available models"
+
+msgctxt "Languages::use_features_for_comparsion"
+msgid "Use child features as comparsion items"
+msgstr "Use child features as comparsion items"
+
+msgctxt "Languages::use_features_as_options"
+msgid "Use child features as option groups"
+msgstr "Use child features as option groups"
+
+msgctxt "Languages::features_as_options"
+msgid "Product features as product options"
+msgstr "Product features as product options"
+
+msgctxt "Languages::is_parent_product"
+msgid "Is parent product"
+msgstr "Is parent product"

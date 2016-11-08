@@ -1,0 +1,93 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::novaposhta"
+msgid "Nova Poshta intergation"
+msgstr "Nova Poshta intergation"
+
+msgctxt "Addons::description::novaposhta"
+msgid "Allows you to get realtime shipping cost from Nova Poshta carrier"
+msgstr "Allows you to get realtime shipping cost from Nova Poshta carrier"
+
+msgctxt "SettingsSections::novaposhta::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::novaposhta::license_key"
+msgid "License Key"
+msgstr "License Key"
+
+msgctxt "SettingsOptions::novaposhta::elm_novaposhta_settings"
+msgid "API Settings"
+msgstr "API Settings"
+
+msgctxt "SettingsOptions::novaposhta::api_key"
+msgid "API key"
+msgstr "API key"
+
+msgctxt "SettingsOptions::novaposhta::cache_livetime"
+msgid "Cache lifetime (in days)"
+msgstr "Cache lifetime (in days)"
+
+msgctxt "SettingsOptions::novaposhta::cron_password"
+msgid "Cron password"
+msgstr "Cron password"
+
+msgctxt "SettingsOptions::novaposhta::cron_url"
+msgid "Cron command"
+msgstr "Cron command"
+
+msgctxt "Languages::addons.novaposhta_cron_url"
+msgid "You can use Cron to update cities info.<br />Use the following line to run the script according to schedule:<br /> php [dir_root] --dispatch=novaposhta.renew_cities --cron_password=[cron_password].<br />Or /usr/bin/wget -O - -q -t 1 '[url_path]'"
+msgstr "You can use Cron to update cities info.<br />Use the following line to run the script according to schedule:<br /> php [dir_root] --dispatch=novaposhta.renew_cities --cron_password=[cron_password]<br />Or /usr/bin/wget -O - -q -t 1 '[url_path]'"
+
+msgctxt "Languages::carrier_nova_poshta"
+msgid "Нова пошта"
+msgstr "Нова пошта"
+
+msgctxt "Languages::addons.novaposhta.shipping_type"
+msgid "Shipping type"
+msgstr "Shipping type"
+
+msgctxt "Languages::addons.novaposhta.warehouse_doors"
+msgid "Warehouse -> Doors"
+msgstr "Warehouse -> Doors"
+
+msgctxt "Languages::addons.novaposhta.warehouse_warehouse"
+msgid "Warehouse -> Warehouse"
+msgstr "Warehouse -> Warehouse"
+
+msgctxt "Languages::addons.novaposhta.default_weight"
+msgid "Default shipment weight"
+msgstr "Default shipment weight"
+
+msgctxt "Languages::addons.novaposhta.default_volume"
+msgid "Default shipment volume"
+msgstr "Default shipment volume"
+
+msgctxt "Languages::nova_poshta_renew_cities"
+msgid "Update cities list"
+msgstr "Update cities list"
+
+msgctxt "Languages::nova_poshta_renew_regions"
+msgid "Update regions list"
+msgstr "Update regions list"
+
+msgctxt "Languages::shipment_status"
+msgid "Shipment status"
+msgstr "Shipment status"
+
+msgctxt "Languages::shipment_received_at"
+msgid "Shipment received at"
+msgstr "Shipment received at"
+
+msgctxt "Languages::reception_time"
+msgid "Reception time"
+msgstr "Reception time"
+
+msgctxt "Languages::addons.novaposhta.api_key_not_specified"
+msgid "API key not specified!"
+msgstr "API key not specified!"

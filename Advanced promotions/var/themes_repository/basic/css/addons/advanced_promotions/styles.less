@@ -1,0 +1,193 @@
+.ty-promotions-list {
+    &__wrapper {
+        background: #fff;
+        box-shadow: 1px 2px 5px 0px rgba(200, 200, 200, 0.5);
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 300px;
+    }
+    &__content-wrapper {
+        padding: 10px 20px 20px;
+    }
+    &__days-left {
+        display: table-cell;
+        vertical-align: top;
+        max-width: 80px;
+        position: relative;
+        text-align: center;
+        &:before {
+            background: -webkit-linear-gradient(top, #e8e7e7, #e5e5e5);
+            background: -ms-linear-gradient(top, #e8e7e7, #e5e5e5);
+            background: -moz-linear-gradient(top, #e8e7e7, #e5e5e5);
+            background: linear-gradient('to bottom', #e8e7e7, #e5e5e5);
+            height: 0.46154em;
+            content: "";
+            position: absolute;
+            width: 97%;
+            left: 1.5%;
+            top: 0;
+        }
+        .days-left-label {
+            box-shadow: 1px 2px 5px 0px rgba(200, 200, 200, 0.26);
+            background-image: url(../media/images/addons/advanced_promotions/promo-date-bg.png);
+            background-repeat: repeat-x;
+            background-position: center 0.46154em;
+            text-align: center;
+            color: #949494;
+            padding: 20px 5px 15px;
+            font-size: 12px;
+            line-height: 1em;
+            display: block;
+        }
+    }
+    &__main-info {
+        display: table-cell;
+        vertical-align: top;
+        max-width: 180px;
+        .inner-wrapper {
+            padding-left: 20px;
+        }
+    }
+    &__time-period {
+        color: #666;
+        line-height: 1.35em;
+        padding-top: 5px;
+        font-size: 12px;
+        display: block;        
+    }
+    &__summary {
+        padding-top: 5px;
+        height: 70px;
+        overflow: hidden;
+        position: relative;
+        &:after {
+            content: "";
+            display: block;
+            height: 12px;
+            width: 100%;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            z-index: 6;
+            background: -webkit-linear-gradient(rgba(255, 255, 255, 0) 0%, #fff 100%);
+            background: -moz-linear-gradient(rgba(255, 255, 255, 0) 0%, #fff 100%);
+            background: -o-linear-gradient(rgba(255, 255, 255, 0) 0%, #fff 100%);
+            background: linear-gradient(rgba(255, 255, 255, 0) 0%, #fff 100%);
+        }
+        a {
+            font-size: 12px;
+        }
+    }
+}
+
+.ty-promotion {
+    &__header-name {
+        font-size: 30px;
+        font-weight: normal;
+        line-height: 1.29167em;
+    }
+    &__available-text {
+        font-size: 14px;
+        line-height: 1.2em;
+        padding-top: 10px;
+        color: #858686;
+    }
+    &__description {
+        padding-top: 20px;
+        p {
+            font-size: 14px;
+            color: #333;
+            line-height: 1.2;
+        }
+    }
+    &__condition {
+        padding-top: 20px;
+        p {
+            font-size: 14px;
+            color: #696969;
+            line-height: 1.2;
+        }
+    }
+}
+
+.ty-product-promotion {
+    border: 2px solid #fc6f79;
+    border-radius: 3px;
+    min-width: 300px;
+    max-width: 700px;
+    width: 100%;
+    padding: 15px;
+    &__name {
+        a {
+            font-size: 20px;
+            color: #fb3f4c;
+            line-height: 1.125em;
+        }
+    }
+    &__image-wrap {
+        float: left;
+        max-width: 125px;
+        text-align: center;
+    }
+    &__main-info {
+        float: left;
+        padding-left: 20px;
+        max-width: 550px;
+    }
+}
+
+.ty-quick-view__wrapper {
+    .ty-promotion {
+        &__img-wrap {
+            display: table-cell;
+            vertical-align: top;
+            max-width: 300px;
+        }
+        &__additional-info {
+            display: table-cell;
+            vertical-align: middle;
+            max-width: 450px;
+            padding-left: 20px;
+            min-width: 360px;
+        }
+        &__products {
+            padding-top: 30px;
+            &-header {
+                h2 {
+                    float: left;
+                    font-size: 20px;
+                    line-height: 30px;
+                    font-weight: 400;
+                }
+                a {
+                    float: right;
+                    display: block;
+                    font-size: 16px;
+                    line-height: 30px;
+                }
+            }
+        }
+        &__to-promotion-page {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            a {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+.cm-clipclock {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    ul {
+        list-style: none;
+        li {
+            list-style: none;
+        }
+    }
+    .flip-clock-divider .flip-clock-label {
+        top: auto;
+        bottom: -1.5em;
+    }
+}

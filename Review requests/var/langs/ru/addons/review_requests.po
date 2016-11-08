@@ -1,0 +1,81 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pervolo\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: pervolo\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: liqpay.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: denis_severin <d.severin@pervolo.com>\n"
+"PO-Revision-Date: 2015-10-05 08:51-0400\n"
+
+msgctxt "Addons::name::review_requests"
+msgid "Product review requests"
+msgstr "Запросы на отзывы о товаре"
+
+msgctxt "Addons::description::review_requests"
+msgid "Sends E-Mail to customers requesting feedback on products"
+msgstr "Отправляет E-Mail покупателям с просьбой оставить отзыв приобретенным товарам"
+
+msgctxt "SettingsSections::review_requests::general"
+msgid "General"
+msgstr "Основные"
+
+msgctxt "SettingsOptions::review_requests::license_key"
+msgid "License key"
+msgstr "Лицензионный ключ"
+
+msgctxt "SettingsOptions::review_requests::requests_settings"
+msgid "Requests settings"
+msgstr "Настройки запросов"
+
+msgctxt "SettingsOptions::review_requests::cron_password"
+msgid "Cron password"
+msgstr "Cron пароль"
+
+msgctxt "SettingsOptions::review_requests::order_statuses"
+msgid "Order statuses"
+msgstr "Статусы заказа"
+
+msgctxt "SettingsOptions::review_requests::send_request_after_days"
+msgid "Send request E-Mail after (days)"
+msgstr "Отправить запрос через (дней)"
+
+msgctxt "Languages::addons.review_requests_cron_url"
+msgid "You can use Cron to send requests to customers.<br />Use the following line to run the script according to schedule:<br /> php [dir_root] --dispatch=review_requests.send_request --cron_password=[cron_password].<br />Or /usr/bin/wget -O - -q -t 1 '[url_path]'"
+msgstr "Вы можете использовать Cron для отправки запросов покупателям.<br />Используйте следующую команду для запуска скрипта по расписанию::<br /> php [dir_root] --dispatch=review_requests.send_request --cron_password=[cron_password]<br />Или /usr/bin/wget -O - -q -t 1 '[url_path]'"
+
+msgctxt "Languages::addons.review_requests.request_heading"
+msgid "Tell us about your experience of using purchased products"
+msgstr "Расскажите нам о своем опыте использования приобретенных товаров"
+
+msgctxt "Languages::addons.review_requests.request_text"
+msgid "Hello, [NAME]. We would like to hear your story about using purchased products from order #[ORDER_ID]."
+msgstr "Здравствуйте, [NAME]. Мы бы хотели услышать Вашу историю об использовании приобритенных товаров из заказа №[ORDER_ID]"
+
+msgctxt "Languages::addons.review_requests.request_subj"
+msgid "[NAME], would you like to share your experience of using products from order #[ORDER_ID]?"
+msgstr "[NAME], не хотели бы Вы поделиться своим опытом использования товаров из заказа №[ORDER_ID]?"
+
+msgctxt "Languages::promotion_cond_left_comment_about_purchased_product"
+msgid "Customer left review of purchased product"
+msgstr "Покупатель оставил отзыв о купленном товаре"
+
+msgctxt "Languages::promotion_cond_left_comment"
+msgid "Customer left a comment for product"
+msgstr "Покупатель оставил комментарий к товару"
+
+msgctxt "Languages::review_request_sended"
+msgid "Review request sended"
+msgstr "Запрос на отзыв отправлен"
+
+msgctxt "Languages::send_review_request"
+msgid "Send review request"
+msgstr "Отправить запрос на отзыв"
+
+msgctxt "Languages::send_review_request_to_selected"
+msgid "Send review requests for selected orders"
+msgstr "Отправить запросы на отзывы для выбранных заказов"

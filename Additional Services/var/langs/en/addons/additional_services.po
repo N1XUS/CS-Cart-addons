@@ -1,0 +1,57 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::additional_services"
+msgid "Additional services"
+msgstr "Additional services"
+
+msgctxt "Addons::description::additional_services"
+msgid "Allows you to create list of additional services you provide (e.g. gift wrapping, Shipping Insurance etc.)"
+msgstr "Allows you to create list of additional services you provide (e.g. gift wrapping, Shipping Insurance etc.)"
+
+msgctxt "SettingsOptions::additional_services::license_key"
+msgid "License Key"
+msgstr "License Key"
+
+msgctxt "SettingsOptions::additional_services::display_type"
+msgid "Display type"
+msgstr "Display type"
+
+msgctxt "SettingsVariants::additional_services::display_type::radio"
+msgid "Radio group"
+msgstr "Radio group"
+
+msgctxt "SettingsVariants::additional_services::display_type::checkbox"
+msgid "Group of checkboxes"
+msgstr "Group of checkboxes"
+
+msgctxt "Languages::additional_services"
+msgid "Additional services"
+msgstr "Additional services"
+
+msgctxt "Languages::additional_services_menu_description"
+msgid "Add your custom services"
+msgstr "Add your custom services"
+
+msgctxt "Languages::manage_services"
+msgid "Manage services"
+msgstr "Manage services"
+
+msgctxt "Languages::available_services_header"
+msgid "Take a look at our services"
+msgstr "Take a look at our services"
+
+msgctxt "Languages::no_thanks"
+msgid "No, thanks"
+msgstr "No, thanks"
+
+msgctxt "Languages::add_service"
+msgid "Add service"
+msgstr "Add service"
+
+msgctxt "Languages::update_service"
+msgid "Update service"
+msgstr "Update service"

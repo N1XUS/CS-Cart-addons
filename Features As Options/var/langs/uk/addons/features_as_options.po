@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pervolo\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: pervolo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: features_as_options.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: denis_severin <d.severin@pervolo.com>\n"
+"PO-Revision-Date: 2015-09-30 10:02-0400\n"
+
+msgctxt "Addons::name::features_as_options"
+msgid "Product features as product options"
+msgstr "Параметри товару на основі характеристик"
+
+msgctxt "Addons::description::features_as_options"
+msgid "Allows you to use default CS-Cart product features as product options"
+msgstr "Дає можливість відображати характеристики товару як параметри"
+
+msgctxt "SettingsSections::features_as_options::general"
+msgid "General"
+msgstr "Загальні"
+
+msgctxt "SettingsOptions::features_as_options::license_key"
+msgid "License Key"
+msgstr "Ліцензійний ключ"
+
+msgctxt "SettingsOptions::features_as_options::word_for_child"
+msgid "Word for child item"
+msgstr "Текст для дочірнього товару"
+
+msgctxt "SettingsOptions::features_as_options::word_for_parent"
+msgid "Word for parent item"
+msgstr "Текст для головного товару"
+
+msgctxt "Languages::use_as_comparsion_feature"
+msgid "Use this feature as comparsion item"
+msgstr "Використовувати для пошуку схожих товарів"
+
+msgctxt "Languages::ttc_use_as_comparsion_feature"
+msgid "If checked, addon will select every product that have the same feature value and group them into options"
+msgstr "Якщо вибрано, модуль вибере всі товари з ідентичним значенням характеристики і згрупує їх в опції"
+
+msgctxt "Languages::use_as_option"
+msgid "Use this feature as option group"
+msgstr "Використовувати як параметр товара"
+
+msgctxt "Languages::ttc_use_as_option"
+msgid "If checked, addon will group products by this feature"
+msgstr "Якщо вибрано, модуль згрупує товари за цією характеристикою"
+
+msgctxt "Languages::also_available_models"
+msgid "Also available models"
+msgstr "Також доступні моделі"
+
+msgctxt "Languages::use_features_for_comparsion"
+msgid "Use child features as comparsion items"
+msgstr "Використовувати дочірні характеристики для пошуку схожих товарів"
+
+msgctxt "Languages::use_features_as_options"
+msgid "Use child features as option groups"
+msgstr "Використовувати дочірні характеристики як параметри"
+
+msgctxt "Languages::features_as_options"
+msgid "Product features as product options"
+msgstr "Параметри товару на основі характеристик"
+
+msgctxt "Languages::is_parent_product"
+msgid "Is parent product"
+msgstr "Головний товар"

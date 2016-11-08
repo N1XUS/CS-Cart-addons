@@ -1,0 +1,1 @@
+{script src="js/addons/additional_services/func.js"}

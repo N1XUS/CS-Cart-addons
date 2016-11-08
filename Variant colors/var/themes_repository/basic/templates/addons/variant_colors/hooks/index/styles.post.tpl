@@ -1,0 +1,1 @@
+{style src="addons/variant_colors/style.less"}

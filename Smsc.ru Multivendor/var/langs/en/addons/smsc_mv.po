@@ -1,0 +1,185 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::smsc_mv"
+msgid "smsc.ru intergation"
+msgstr "smsc.ru intergation"
+
+msgctxt "Addons::description::smsc_mv"
+msgid "Allows you to set up administrator and customer SMS notifications"
+msgstr "Allows you to set up administrator and customer SMS notifications"
+
+msgctxt "SettingsVariants::smsc_mv::customer_phone_field::s"
+msgid "Shipping address phone"
+msgstr "Shipping address phone"
+
+msgctxt "SettingsVariants::smsc_mv::customer_phone_field::b"
+msgid "Billing address phone"
+msgstr "Billing address phone"
+
+msgctxt "SettingsSections::smsc_mv::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::smsc_mv::license_key"
+msgid "License Key"
+msgstr "License Key"
+
+msgctxt "SettingsOptions::smsc_mv::elm_smsc_mv_settings"
+msgid "smsc.ru Settings"
+msgstr "smsc.ru Settings"
+
+msgctxt "SettingsOptions::smsc_mv::smsc_login"
+msgid "smsc.ru Login"
+msgstr "smsc.ru Login"
+
+msgctxt "SettingsOptions::smsc_mv::smsc_password"
+msgid "smsc.ru Password"
+msgstr "smsc.ru Password"
+
+msgctxt "SettingsOptions::smsc_mv::smsc_sender"
+msgid "smsc.ru Display name"
+msgstr "smsc.ru Display name"
+
+msgctxt "SettingsOptions::smsc_mv::elm_admin_send_sms_if"
+msgid "Send SMS if"
+msgstr "Send SMS if"
+
+msgctxt "SettingsOptions::smsc_mv::elm_customer_send_sms_if"
+msgid "Send SMS if"
+msgstr "Send SMS if"
+
+msgctxt "SettingsOptions::smsc_mv::elm_vendor_send_sms_if"
+msgid "Send SMS if"
+msgstr "Send SMS if"
+
+msgctxt "SettingsSections::smsc_mv::admin_notifications"
+msgid "Administrator notifications"
+msgstr "Administrator notifications"
+
+msgctxt "SettingsOptions::smsc_mv::admin_phone_number"
+msgid "Administrator phone number"
+msgstr "Administrator phone number"
+
+msgctxt "SettingsOptions::smsc_mv::admin_sms_new_cusomer_registered"
+msgid "New customer has been registered"
+msgstr "New customer has been registered"
+
+msgctxt "SettingsOptions::smsc_mv::admin_sms_new_order_placed"
+msgid "New order has been placed"
+msgstr "New order has been placed"
+
+msgctxt "SettingsOptions::smsc_mv::admin_sms_order_updated"
+msgid "Order has been updated"
+msgstr "Order has been updated"
+
+msgctxt "SettingsOptions::smsc_mv::admin_sms_send_min_amount"
+msgid "Only send when order total amount is more than"
+msgstr "Only send when order total amount is more than"
+
+msgctxt "SettingsOptions::smsc_mv::admin_sms_send_shipping"
+msgid "Only send for these shipping methods"
+msgstr "Only send for these shipping methods"
+
+msgctxt "SettingsOptions::smsc_mv::admin_sms_send_order_statuses"
+msgid "Only send for these order statuses"
+msgstr "Only send for these order statuses"
+
+msgctxt "SettingsOptions::smsc_mv::admin_sms_product_negative_amount"
+msgid "Product quantity is less than zero"
+msgstr "Product quantity is less than zero"
+
+msgctxt "SettingsOptions::smsc_mv::admin_elm_sms_content"
+msgid "SMS content"
+msgstr "SMS content"
+
+msgctxt "SettingsOptions::smsc_mv::admin_sms_send_payment_info"
+msgid "Add payment info"
+msgstr "Add payment info"
+
+msgctxt "SettingsOptions::smsc_mv::admin_sms_send_customer_email"
+msgid "Add customers e-mail"
+msgstr "Add customers e-mail"
+
+msgctxt "SettingsSections::smsc_mv::customer_notifications"
+msgid "Customer notifications"
+msgstr "Customer notifications"
+
+msgctxt "SettingsOptions::smsc_mv::customer_phone_field"
+msgid "Customer phone field"
+msgstr "Customer phone field"
+
+msgctxt "SettingsOptions::smsc_mv::customer_sms_order_updated"
+msgid "Order has been updated"
+msgstr "Order has been updated"
+
+msgctxt "SettingsOptions::smsc_mv::customer_sms_send_shipping"
+msgid "Only send for these shipping methods"
+msgstr "Only send for these shipping methods"
+
+msgctxt "SettingsOptions::smsc_mv::customer_sms_send_order_statuses"
+msgid "Only send for these order statuses"
+msgstr "Only send for these order statuses"
+
+msgctxt "SettingsOptions::smsc_mv::customer_sms_send_min_amount"
+msgid "Only send when order total amount is more than"
+msgstr "Only send when order total amount is more than"
+
+msgctxt "SettingsSections::smsc_mv::vendor_notifications"
+msgid "Vendors notifications"
+msgstr "Vendors notifications"
+
+msgctxt "SettingsOptions::smsc_mv::vendor_sms_new_order_placed"
+msgid "New order has been placed"
+msgstr "New order has been placed"
+
+msgctxt "SettingsOptions::smsc_mv::vendor_sms_order_updated"
+msgid "Order has been updated"
+msgstr "Order has been updated"
+
+msgctxt "SettingsOptions::smsc_mv::vendor_sms_send_min_amount"
+msgid "Only send when order total amount is more than"
+msgstr "Only send when order total amount is more than"
+
+msgctxt "SettingsOptions::smsc_mv::vendor_sms_send_shipping"
+msgid "Only send for these shipping methods"
+msgstr "Only send for these shipping methods"
+
+msgctxt "SettingsOptions::smsc_mv::vendor_sms_send_order_statuses"
+msgid "Only send for these order statuses"
+msgstr "Only send for these order statuses"
+
+msgctxt "SettingsOptions::smsc_mv::vendor_sms_product_negative_amount"
+msgid "Product quantity is less than zero"
+msgstr "Product quantity is less than zero"
+
+msgctxt "SettingsOptions::smsc_mv::vendor_elm_sms_content"
+msgid "SMS content"
+msgstr "SMS content"
+
+msgctxt "SettingsOptions::smsc_mv::vendor_sms_send_payment_info"
+msgid "Add payment info"
+msgstr "Add payment info"
+
+msgctxt "SettingsOptions::smsc_mv::vendor_sms_send_customer_email"
+msgid "Add customers e-mail"
+msgstr "Add customers e-mail"
+
+msgctxt "Languages::addons.smsc_mv.custom_sms_message"
+msgid "Custom SMS message"
+msgstr "Custom SMS message"
+
+msgctxt "Languages::addons.smsc_mv.sms_placeholders"
+msgid "You can use these placeholders:<br /><strong>%ORDER_ID%</strong> equals to order ID;<br /><strong>%NAME%</strong> equals to customers name;<br /><strong>%LAST_NAME%</strong> equals to customers last name;<br /><strong>%USER_EMAIL%</strong> equals to customers E-Mail;<br /><strong>%ORDER_TOTAL%</strong> equals to order total;<br />"
+msgstr "You can use these placeholders:<br /><strong>%ORDER_ID%</strong> equals to order ID;<br /><strong>%NAME%</strong> equals to customers name;<br /><strong>%LAST_NAME%</strong> equals to customers last name;<br /><strong>%USER_EMAIL%</strong> equals to customers E-Mail;<br /><strong>%ORDER_TOTAL%</strong> equals to order total;<br />"
+
+msgctxt "Languages::addons.smsc_mv.new_shipment_sms"
+msgid "Shipment for order [order_id] was send. Shipping method: [shipping_method]. It was assigned [tracking_number] tracking number"
+msgstr "Shipment for order [order_id] was send. Shipping method: [shipping_method]. It was assigned [tracking_number] tracking number"
+
+msgctxt "Languages::addons.smsc_mv.is"
+msgid "is"
+msgstr "is"

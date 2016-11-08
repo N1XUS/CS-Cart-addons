@@ -1,0 +1,13 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::resend_shipment"
+msgid "Re-send shipment information"
+msgstr "Re-send shipment information"
+
+msgctxt "Languages::resend_shipment_info"
+msgid "Re-send shipment information"
+msgstr "Re-send shipment information"

@@ -1,0 +1,89 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::seo_filters"
+msgid "SEO filters"
+msgstr "SEO filters"
+
+msgctxt "Addons::description::seo_filters"
+msgid "Adds ability to set SEF URL's for features hash"
+msgstr "Adds ability to set SEF URL's for features hash"
+
+msgctxt "SettingsSections::seo_filters::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::seo_filters::license_key"
+msgid "License Key"
+msgstr "License Key"
+
+msgctxt "SettingsOptions::seo_filters::default_category_display_name"
+msgid "Default category display name"
+msgstr "Default category display name"
+
+msgctxt "SettingsOptions::seo_filters::default_page_title"
+msgid "Default page title"
+msgstr "Default page title"
+
+msgctxt "SettingsOptions::seo_filters::default_meta_description"
+msgid "Default meta description"
+msgstr "Default meta description"
+
+msgctxt "SettingsOptions::seo_filters::default_meta_keywords"
+msgid "Default meta keywords"
+msgstr "Default meta keywords"
+
+msgctxt "SettingsOptions::seo_filters::include_in_sitemap"
+msgid "Include links in sitemap.xml"
+msgstr "Include links in sitemap.xml"
+
+msgctxt "SettingsOptions::seo_filters::enable_combination_autogeneration"
+msgid "Enable autogeneration for single combinations"
+msgstr "Enable autogeneration for single combinations"
+
+msgctxt "Languages::manage_seo_filters"
+msgid "SEO filters"
+msgstr "SEO filters"
+
+msgctxt "Languages::editing_seo_filter"
+msgid "Editing seo filter"
+msgstr "Editing seo filter"
+
+msgctxt "Languages::filter_combinations"
+msgid "Filter combinations"
+msgstr "Filter combinations"
+
+msgctxt "Languages::new_seo_filter"
+msgid "New SEO filter"
+msgstr "New SEO filter"
+
+msgctxt "Languages::addons.seo_filters.combination_exists"
+msgid "This combination already exists"
+msgstr "This combination already exists. Please go to <a href=\"[URL]\">corresponding page</a>"
+
+msgctxt "Languages::addons.seo_filters.no_combinations_defined"
+msgid "No combinations defined"
+msgstr "No combinations defined"
+
+msgctxt "Languages::combination_seo_name"
+msgid "Combination SEO name"
+msgstr "Combination SEO name"
+
+msgctxt "Languages::current_combination"
+msgid "Current combination"
+msgstr "Current combination"
+
+msgctxt "Languages::with_empty_combinations"
+msgid "With empty combinations"
+msgstr "With empty combinations"
+
+msgctxt "Languages::all_combinations"
+msgid "All combinations"
+msgstr "All combinations"
+
+msgctxt "Languages::add_seo_filter"
+msgid "Add SEO filter"
+msgstr "Add SEO filter"
