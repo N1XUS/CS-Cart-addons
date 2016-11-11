@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>novaposhta</id>
+    <version>1.1</version>
+    <status>active</status>
+    <priority>1000</priority>
+    <position>0</position>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language>
+    <authors>
+        <author>
+            <name>Pervolo</name>
+            <email>info@pervolo.com</email>
+            <url>http://pervolo.com</url>
+            <phone>+380 (99) 790-57-96</phone>
+        </author>
+    </authors>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="license_key">
+                        <type>input</type>
+                        <default_value />
+                        <variants />
+                    </item>
+                    <item id="elm_novaposhta_settings">
+                        <type>header</type>
+                        <variants/>
+                    </item>
+                    <item id="api_key">
+                        <type>input</type>
+                        <default_value/>
+                        <variants/>
+                    </item>
+                    <item id="cache_livetime">
+                        <type>input</type>
+                        <default_value>7</default_value>
+                        <variants/>
+                    </item>
+                    <item id="cron_password">
+                        <type>input</type>
+                        <default_value>MYPASS</default_value>
+                        <variants />
+                    </item>
+                    <item id="cron_url">
+                        <type>info</type>
+                        <handler>fn_novaposhta_get_cron_url_info</handler>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <functions>
+        <item for="install">fn_novaposhta_install</item>
+        <item for="uninstall">fn_novaposhta_uninstall</item>
+    </functions>
+    <queries>
+        <item for="install">
+            ALTER TABLE `?:orders` CHANGE `b_state` `b_state` VARCHAR(40);
+        </item>
+        <item for="install">
+            ALTER TABLE `?:orders` CHANGE `s_state` `s_state` VARCHAR(40);
+        </item>
+        <item for="install">
+            ALTER TABLE `?:user_profiles` CHANGE `b_state` `b_state` VARCHAR(40);
+        </item>
+        <item for="install">
+            ALTER TABLE `?:user_profiles` CHANGE `s_state` `s_state` VARCHAR(40);
+        </item>
+        <item for="install">
+            ALTER TABLE `?:orders` ADD `warehouse_info` BLOB NULL DEFAULT NULL;
+        </item>
+        <item for="install">
+            ALTER TABLE `?:orders` ADD `warehouse` mediumtext NOT NULL DEFAULT '';
+        </item>
+        <item for="install">
+            ALTER TABLE `?:states` CHANGE `code` `code` VARCHAR(40);
+        </item>
+        <item for="install">
+            ALTER TABLE `?:states` ADD `np` CHAR(1) NOT NULL DEFAULT 'N';
+        </item>
+        <item for="install">
+            DROP TABLE IF EXISTS `?:novaposhta_cities`;
+        </item>
+        <item for="install">
+            CREATE TABLE `?:novaposhta_cities` (
+              `city_id` varchar(255) NOT NULL,
+              `region_id` varchar(40) NULL DEFAULT NULL,
+              `city_name` varchar(255) NOT NULL,
+              `city_name_ua` varchar(255) NOT NULL,
+              `timestamp` int(11) unsigned NOT NULL DEFAULT '0',
+              PRIMARY KEY (`city_id`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+        <item for="install">
+            CREATE TABLE `?:novaposhta_warehouses` (
+              `warehouse_id` varchar(255) NOT NULL,
+              `data` mediumtext,
+              `city_id` varchar(255) NOT NULL,
+              `timestamp` int(11) unsigned NOT NULL DEFAULT '0',
+              PRIMARY KEY (`warehouse_id`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+        <item for="uninstall">
+            ALTER TABLE `?:orders` DROP warehouse_info;
+        </item>
+        <item for="uninstall">
+            ALTER TABLE `?:states` DROP np;
+        </item>
+        <item for="uninstall">
+            DROP TABLE IF EXISTS `?:novaposhta_cities`;
+        </item>
+        <item for="uninstall">
+            DROP TABLE IF EXISTS `?:novaposhta_warehouses`;
+        </item>
+    </queries>
+</addon>
